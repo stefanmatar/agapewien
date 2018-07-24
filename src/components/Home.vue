@@ -2,22 +2,24 @@
 <div>
   <img class="logo" src="static/logo.png" alt="Agape">
   <toolbar/>
+  <KnowJesus>
+  </KnowJesus>
   <who-we-are/>
   <our-values/>
 </div>
-
 </template>
 
 <script>
 import Toolbar from '@/components/Toolbar'
+import KnowJesus from '@/components/KnowJesus'
 import WhoWeAre from '@/components/WhoWeAre'
 import OurValues from '@/components/OurValues'
 
 export default {
   components: {
     Toolbar,
-    WhoWeAre,
-    OurValues
+    KnowJesus,
+    WhoWeAre
   },
   name: 'HelloWorld',
   data () {
@@ -32,5 +34,6 @@ export default {
 <style scoped>
 .logo {
   width: 200px;
+  margin: 1em;
 }
 </style>
