@@ -3,6 +3,7 @@
   <img class="logo" src="static/logo.png" alt="Agape">
   <toolbar>
   </toolbar>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </div>
 </template>
 
@@ -12,12 +13,6 @@ import Toolbar from '@/components/Toolbar'
 export default {
   components: {
     Toolbar
-  },
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
   }
 }
 </script>
