@@ -1,17 +1,19 @@
 <template>
 <div>
   <img class="logo" src="static/logo.png" alt="Agape">
-  <toolbar>
-  </toolbar>
+  <toolbar/>
+  <who-we-are/>
 </div>
 </template>
 
 <script>
 import Toolbar from '@/components/Toolbar'
+import WhoWeAre from '@/components/WhoWeAre'
 
 export default {
   components: {
-    Toolbar
+    Toolbar,
+    WhoWeAre
   },
   name: 'HelloWorld',
   data () {
