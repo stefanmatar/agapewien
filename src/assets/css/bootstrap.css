@@ -68,6 +68,13 @@ h4 {
   letter-spacing: 4px !important;
 }
 
+h3 {
+  font-weight: 300 !important;
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+  letter-spacing: 4px !important;
+}
+
 .btn {
   border: 0 !important;
   border-radius: 300px !important;
