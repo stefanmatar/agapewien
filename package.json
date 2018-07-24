@@ -1,0 +1,19 @@
+{
+  "name": "agapewien",
+  "version": "1.0.0",
+  "description": "Website for Agapewien",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanmatar/agapewien.git"
+  },
+  "author": "AgapeWien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanmatar/agapewien/issues"
+  },
+  "homepage": "https://github.com/stefanmatar/agapewien#readme"
+}
