@@ -19,7 +19,8 @@ export default {
   components: {
     Toolbar,
     KnowJesus,
-    WhoWeAre
+    WhoWeAre,
+    OurValues
   },
   name: 'HelloWorld',
   data () {
