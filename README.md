@@ -1,4 +1,4 @@
-# agapewien
+# Agapewien Homepage
 
 This is the new homepage of the Agape Church Vienna. There are five goals we have for this project:
 
