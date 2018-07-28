@@ -5,7 +5,7 @@ This is the new homepage of the Agape Church Vienna. There are five goals we hav
 1. It should have good structure & organizatin of important information.
 2. The webpage should be a warm welcome to anybody new to Agape.
 3. It should be fast.
-4. All functionaly must be reliable.
+4. All functionality must be reliable.
 5. The webpage should be mobile, tablet and desktop friendly.
 
 ## Technologies used
