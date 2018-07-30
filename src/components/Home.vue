@@ -6,6 +6,7 @@
   </KnowJesus>
   <who-we-are/>
   <our-values/>
+  <LIVE/>
 </div>
 </template>
 
@@ -14,13 +15,15 @@ import Toolbar from '@/components/Toolbar'
 import KnowJesus from '@/components/KnowJesus'
 import WhoWeAre from '@/components/WhoWeAre'
 import OurValues from '@/components/OurValues'
+import LIVE from '@/components/LIVE'
 
 export default {
   components: {
     Toolbar,
     KnowJesus,
     WhoWeAre,
-    OurValues
+    OurValues,
+    LIVE
   },
   name: 'HelloWorld',
   data () {
