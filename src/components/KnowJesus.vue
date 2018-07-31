@@ -1,7 +1,7 @@
 <template> 
 <section id="know"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <div class="container´-fluid"> 
+  <div class="container-fluid"> 
   <div class="row"> 
       <div class="col-12 know-header">
           <div class="bg bg-center">
@@ -34,13 +34,12 @@ export default {
     padding: 250px; 
 } 
 .container-fluid { 
-    padding-left: 0px;
-    padding-right: 0px; 
-} 
-.know-header { 
     background-image: url('/static/Images/Header Main.jpg');
     height: 100%;
     width: 100%; 
-    padding-bottom: 7.25em;
+    padding-bottom: 3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 } 
 </style> 

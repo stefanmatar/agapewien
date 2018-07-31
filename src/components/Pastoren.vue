@@ -24,8 +24,8 @@ export default {
 
 <style>
 #pastoren{
-    padding: 8em;
-    margin: 1em;
+    padding: 2em;
+    margin: 2em;
 }
 .rounded-0 {
     width: 30%;
