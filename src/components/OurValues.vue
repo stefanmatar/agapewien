@@ -2,6 +2,10 @@
   <section id="values">
     <div class="container">
       <div class="row">
+        <div class= "col-12">
+        <h1> Unsere Werte</h1>
+        <h3><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</small></h3>
+        </div>
         <table class="col-12">
           <tr>
             <th><h3>Hoffnung</h3></th>
@@ -28,7 +32,7 @@ export default {
 <style>
 #values {
   background-color: white;
-  padding: 6em 0;
+  padding: 5em 0;
 }
 
 table {
@@ -60,5 +64,8 @@ th {
 
 th:hover {
   color: #d03439;
+}
+#values h3{
+  margin-bottom: 4em;
 }
 </style>
