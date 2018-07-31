@@ -1,5 +1,6 @@
 <template>
   <section id="who">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 who-header">
@@ -13,8 +14,8 @@
           <p class="paragraph-faded">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
           </p>
-          <div class="btn btn-danger btn-rounded pull-left">
-            MAI MULTE
+          <div class="btn btn-danger btn-rounded">
+           <i class="fas fa-play"></i> MAI MULTE
           </div>
         </div>
       </div>
