@@ -6,13 +6,41 @@
         <h1>Pastoren</h1>
         <h3><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</small></h3>
         </div>
-        <div class="images">
-        <img src="static/Images/Pesel.jpg" class="rounded-0 float-left" alt="Agape">
-        <img src="static/Images/Peter.jpg" class="rounded-0 float-right" alt="Agape">
-        <img src="static/Images/Onisor.JPG" class="rounded-0 float-center" alt="Agape">      
+
+        <div class= "col-3">
+        <figure>
+        <img src="static/Images/Pesel.jpg" alt="agape" class="image" >
+        <figcaption><h5>Stefan Pesel</h5></figcaption>
+        <div class="font-weight-light">Pastor</div>
+        </figure>
         </div>
-      </div>
-    </div>
+
+        <div class= "col-3">
+        <figure>
+        <img src="static/Images/Peter.jpg" alt="agape" class="image">
+        <figcaption><h5>Samuel Peter</h5></figcaption>
+        <div class="font-weight-light">Pastor</div>
+        </figure>
+        </div>
+
+        <div class= "col-3">
+        <figure>
+        <img src="static/Images/Onisor.JPG" alt="agape" class="image">
+        <figcaption><h5>Nelu Onisor</h5></figcaption>
+        <div class="font-weight-light">Pastor</div>
+        </figure>
+        </div>
+
+        <div class= "col-3">
+        <figure>
+        <img src="static/Images/Pesel.jpg" alt="agape" class="image">
+        <figcaption><h5>Benjamin Lavu</h5></figcaption>
+        <div class="font-weight-light">Diakon</div>
+        </figure> 
+        </div>
+
+      </div> 
+      </div>   
   </section>
 </template>
 
@@ -27,11 +55,15 @@ export default {
     padding: 2em;
     margin: 2em;
 }
-.rounded-0 {
-    width: 30%;
-    height: 100%; 
+.image {
+    width: 250px;
+    height: 180px;
+}
+#pastoren h5{
+    margin-top: 0.5em;
+    color: rgb(0, 0, 0);
 }
 #pastoren h3{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 </style>
