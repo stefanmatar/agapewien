@@ -7,33 +7,50 @@
     <h4><small class="text-muted col-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</small></h4>
     </div>
     <div class="row">
-        <div class="col-2">
-        <img src="static/Images/Insta1.jpeg" class="image1"  style="width:120%">
+        <div class="col-3">
+        <img src="static/Images/Insta1.jpeg" class="image1"  style="width:250px">   
         </div>
-        <div class="col-2">
-        <img src="static/Images/Insta2.jpeg" class="image2"  style="width:120%">    
+        <div class="col-3">
+         <img src="static/Images/Insta3.png" class="image3"  style="width:300px">   
         </div>
-        <div class="col-2">
-         <img src="static/Images/Insta3.png" class="image3"  style="width:150%">   
-        </div>
-        <div class="col-6">
-            <ul style="list-style-type:none" class="list">
-            <li><i class="welcome fas fa-brush"></i><h3 class="font-weight-bold">Täglich neue Designs</h3>
-            <h5><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod sed diam nonumy eirmod diam nonumy eirmod.</small></h5></li>
+		<div class="col-6">
+		            <div class="gaadiex-list">
+		            <div class="gaadiex-list-item">
+		            <i class="social fas fa-brush"></i>
+                    <div class="gaadiex-list-item-text">
+                    <h5 class="text-left font-weight-bold">Täglich neue Designs</h5>
+                    <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                    </div>
 
-            <li><i class="welcome fas fa-binoculars"></i><h3 class="font-weight-bold">Entdecke die Schrift neu</h3>
-            <h5><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod sed diam nonumy eirmod diam nonumy eirmod.</small></h5></li>
+                    <div class="gaadiex-list-item">
+		            <i class="social fas fa-binoculars"></i>
+                    <div class="gaadiex-list-item-text">
+                    <h5 class="text-left font-weight-bold">Entdecke die Schrift neu</h5>
+                    <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
 
-            <li><i class="welcome fas fa-book"></i><h3 class="font-weight-bold">Botschaften aus dem Wort</h3>
-             <h5><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod sed diam nonumy eirmod diam nonumy eirmod.</small></h5></li>
-
-            <li><i class="welcome fas fa-couch"></i><h3 class="font-weight-bold">Bequem vom Handy aus</h3>
-            <h5><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod sed diam nonumy eirmod diam nonumy eirmod.</small></h5></li>
-            </ul>
-        </div>
-        </div>  
-    </div>      
-    </section>
+                    </div>
+                    </div>
+                    <div class="gaadiex-list-item">
+		            <i class="social fas fa-book"></i>
+                    <div class="gaadiex-list-item-text">
+                    <h5 class="text-left font-weight-bold">Botschaften aus Gottes Wort</h5>
+                    <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                    </div>
+                    	
+                    <div class="gaadiex-list-item">    
+		            <i class="social fas fa-couch"></i>
+                    <div class="gaadiex-list-item-text">
+                    <h5 class="text-left font-weight-bold">Bequem vom Handy aus</h5>
+                    <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    </div>
+                    </div>
+                    </div>  
+    </div>
+</div>
+</div>  
+</section>
 </template>
 
 <script>
@@ -43,42 +60,38 @@ export default {
 </script>
 
 <style>
+.social{
+    float: left;
+    color: #ad1818;
+    font-size: 30px;
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+}
 .image1{
-    margin-top: 3em;
-    margin-right: 1em;
-
+    padding-top: 3em;
+    padding-right: 0.5em;
 }
 .image2{
-    margin-top: 3em;
-    margin-left: 1em;
+    padding-top: 3em;
+    padding-left: 0.5em;
 }
-
 #welcome{
-    padding: 8em;
+    padding: 4em;
 }
-.welcome{
-    float: left;
-    font-size:32px;
-    width: 68px;
-    height: 15px;
-    padding-right: 20px;
-    color:#ad1818;
+.gaadiex-list-item-text{
+    padding-left: 4em;
+    padding-bottom:1em;
 }
-#welcome h3{
-    float: left;
-    margin-bottom:0;
+.gaadiex-list{
+    padding-left: 2em;
+    padding-top: 4em;
 }
-#welcome h5{
-    float: left;
-    padding-left:67px;
+#welcome p{
+    margin:0;
     padding-bottom: 1em;
 }
-#welcome h4{
-    padding-left: 20em;
-    padding-right: 20em;
-}
-.list{
-    padding-top: 3em;
-    padding-left: 3em;
+#welcoem h5{
+    margin:0;
 }
 </style>
