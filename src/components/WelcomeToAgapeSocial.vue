@@ -1,6 +1,5 @@
 <template>
     <section id="welcome">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> 
     <div class="container">
     <div class="col-12">
     <h1>Welcome to Agape <span style="color:#ad1818">Social</span></h1>
@@ -77,7 +76,7 @@ export default {
     padding-left: 0.5em;
 }
 #welcome{
-    padding: 4em;
+    padding: 5em;
 }
 .gaadiex-list-item-text{
     padding-left: 4em;

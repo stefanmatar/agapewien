@@ -1,4 +1,5 @@
 <template>
+<section id="toolbar">
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
         <ul class="navbar-nav">
@@ -20,6 +21,7 @@
         </ul>
     </div>
 </nav>
+</section>
 </template>
 
 <script>
@@ -29,5 +31,7 @@ export default {
 </script>
 
 <style>
-
+#toolbar{
+    font-size: 14px;
+}
 </style>

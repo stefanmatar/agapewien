@@ -5,10 +5,13 @@
   <div class="row"> 
       <div class="col-12 know-header">
           <div class="bg bg-center">
-            <h2>Know Jesus - Know Peace</h2> 
+            <h2>Know Jesus - Know Peace</h2>
+            <p class="paragraph-faded">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </p> 
             <div class="container"> 
             <div class="btn btn-light btn-rounded"> 
-              <i class="fas fa-play"></i> MEHR DAZU 
+            <i class="fas fa-play"></i> MEHR DAZU 
             </div> 
             </div> 
           </div> 
@@ -41,5 +44,9 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+#know p{
+  padding-left: 10em;
+  padding-right: 10em;
 } 
 </style> 

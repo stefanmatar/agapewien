@@ -6,16 +6,16 @@
         <div class="col-lg-6 who-header">
           <h4>O biserica pasionata de Dumnezeu</h4>
           <h2>Cine suntem?</h2>
-        </div>
+          </div>
         <div class="col-lg-5 who-side-text">
           <p class="paragraph">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
           </p>
           <p class="paragraph-faded">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
           </p>
           <div class="btn btn-danger btn-rounded">
-           <i class="fas fa-play"></i> MAI MULTE
+          <i class="fas fa-play"></i> MAI MULTE
           </div>
         </div>
       </div>

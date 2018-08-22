@@ -52,8 +52,9 @@ export default {
 
 <style>
 #pastoren{
-    padding: 2em;
-    margin: 2em;
+    padding: 4em;
+    margin: 4em;
+    padding-bottom: 12em;
 }
 .image {
     width: 250px;
