@@ -8,14 +8,14 @@
         </div>
         <table class="col-12">
           <tr>
-            <th><h3>Hoffnung</h3></th>
-            <th><h3>Liebe</h3></th>
-            <th><h3>Glaube</h3></th>
+            <th><i class="fas fa-dove fas-image"></i><h3>Hoffnung</h3></th>
+            <th><i class="fas fa-heart fas-image"></i><h3>Liebe</h3></th>
+            <th><i class="fas fa-church fas-image"></i><h3>Glaube</h3></th>
           </tr>
           <tr>
-            <th><h3>Wort</h3></th>
-            <th><h3>Gebet</h3></th>
-            <th><h3>Lobpreis</h3></th>
+            <th><i class="fas fa-book-open fas-image"></i><h3>Wort</h3></th>
+            <th><i class="fas fa-hands fas-image"></i><h3>Gebet</h3></th>
+            <th><i class="fas fa-music fas-image"></i><h3>Lobpreis</h3></th>
           </tr>
         </table>
       </div>
@@ -32,40 +32,45 @@ export default {
 <style>
 #values {
   background-color: white;
-  padding: 5em 0;
+  font-size: 10px;
+  padding: 14em 0;
 }
 
-table {
+#values table {
   border-collapse: collapse;
 }
-table td, table th {
+#values table td, table th {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-bottom: 0;
 
 }
-table tr:first-child th {
+#values table tr:first-child th {
   border-top: 0;
 }
-table tr:last-child td {
+#values table tr:last-child td {
   border-bottom: 0;
 }
-table tr td:first-child,
-table tr th:first-child {
+#values table tr td:first-child,
+#values table tr th:first-child {
   border-left: 0;
 }
-table tr td:last-child,
-table tr th:last-child {
+#values table tr td:last-child,
+#values table tr th:last-child {
   border-right: 0;
 }
 
-th {
+#values th {
   padding: 8em;
 }
 
-th:hover {
+#values th:hover {
   color: #d03439;
 }
 #values h3{
   margin-bottom: 4em;
+}
+.fas-image{
+  font-size: 32px;
+  padding-bottom: 0.5em;
 }
 </style>
