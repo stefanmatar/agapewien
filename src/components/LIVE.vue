@@ -3,16 +3,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> 
     <div class="container"> 
       <div class="row">
-        <div class="col-6 live-side-image"> 
-        <div class="container1">
-        <div class="button-bg bg bg-center">
-        <div class="btn btn-light btn-rounded">  
+        <div class="col-5 live-side-image"> 
+        <div class="btn btn-light btn-rounded button">  
         <i class="fas fa-play"></i>
-        </div>
-        </div>
         </div>  
         </div>
-        <div class="col-6 live-side-text"> 
+        <div class="col-7 live-side-text"> 
         <h3>GOTTESDIENST</h3> 
         <h2>JEDEN SONNTAG</h2> 
         <p class="paragraph-faded"> 
@@ -36,12 +32,13 @@ export default {
 <style> 
 .live-side-text {  
   line-height: 1.5; 
-  text-align: left; 
-  padding-top: 10em;
+  text-align: left;
+  padding-left: 5em;
 } 
 #live { 
   background-color: #ad1818; 
-  padding: 1em; 
+  padding-top: 4em;
+  padding-bottom: 4em;  
 }  
 #live h2 { 
   color: white; 
@@ -49,12 +46,13 @@ export default {
 #live h3{
   color: black;
 }
-.button-bg{
+.live-side-image{
     background-image: url('/static/Images/Live2.jpg');
-    background-position: center;  
+    height: 250px;
+    padding-top: 107px;
+    padding-left: 41.5px;
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 550px;
-    background-position-x: 2em;
+    background-position:right;
+    background-size: 800px;
 }
 </style> 
