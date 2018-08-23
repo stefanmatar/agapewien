@@ -57,8 +57,8 @@ export default {
     padding-bottom: 12em;
 }
 .image {
-    width: 250px;
-    height: 180px;
+    width: 270px;
+    height: 185px;
 }
 #pastoren h5{
     margin-top: 0.5em;

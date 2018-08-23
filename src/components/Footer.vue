@@ -6,7 +6,15 @@
     <div class="row">
             <div class="footer-header col-5">
             <h5>Du hast noch weitere Fragen?</h5>
-            <i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter-square"></i>
+            <div class="button btn btn-dark btn-sm">  
+            <i class="fab fa-facebook-square"></i>
+            </div>
+            <div class="button btn btn-dark btn-sm">
+            <i class="fab fa-instagram"></i>
+            </div>
+            <div class="button btn btn-dark btn-sm">
+            <i class="fab fa-twitter-square"></i>
+            </div>
             </div>
             <div class="col-3">
             <p class="number text-faded">Sie Wollen uns Kontaktieren? Wir sind jederzeit für sie da! +436641234567</p>
@@ -21,7 +29,7 @@
 <div class="col-12">
 <nav class="toolbar-background navbar-expand-lg">
     <div class="navbar">
-        <span style="color:#949494" class="Copyright footer-text2" >2018 Copyright.<span class="footer-text2" style="color: white"> Made with <i class="fas fa-circle"></i></span></span>
+        <span style="color:#949494" class="Copyright footer-text2" ><i class="far fa-copyright"></i> 2018 Copyright.<span class="footer-text2" style="color: white"> Made with <i class="fas fa-circle"></i></span></span>
         <ul class="navbar-nav nav-toolbar">
             <li class="nav-item">
                 <a style="color:white" class="nav-link" href="#">HOME</a>
@@ -69,6 +77,9 @@ export default {
     text-align:left;
     color: #949494;
 }
+.fa-copyright{
+    color: #949494;
+}
 .footer-text1{
     padding-bottom: 6em;
     padding-left: 3em;
@@ -78,8 +89,6 @@ export default {
 }
 .fab{
     color: white;
-    padding-right: 0.5em;
-    padding-top: 1.5em;
     font-size: 20px;
     float: left;
 }
@@ -92,7 +101,7 @@ export default {
     color: #949494;
 }
 .toolbar-background{
-    background-color: #0000001c;
+    background-color: #0000003c;
 }
 .fa-circle{
     color: #ad1818;
@@ -104,6 +113,11 @@ export default {
 }
 .footer-text2{
     font-size: 13px;
+}
+.button{
+    float: left;
+    background-color: #0000003b;
+    padding-bottom: 0.41em;
 }
 </style>
 

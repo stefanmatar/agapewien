@@ -7,21 +7,21 @@
         <h3><small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</small></h3>
         <div class="row"> 
             <div class="column">
-            <img src="static/Images/Agape11.jpg" style="width:250px">
-            <img src="static/Images/Agape12.jpg" style="width:250px">
-            <img src="static/Images/Agape5.jpg" style="width:250px">
-            <img src="static/Images/Agape8.jpg" style="width:250px">
+            <img src="static/Images/Agape11.jpg" style="width:300px">
+            <img src="static/Images/Agape12.jpg" style="width:300px">
+            <img src="static/Images/Agape5.jpg" style="width:300px">
+            <img src="static/Images/Agape8.jpg" style="width:300px">
             </div>
             <div class="column">
-            <img src="static/Images/Agape1.jpg" style="width:250px">
-            <img src="static/Images/Agape6.jpg" style="width:250px">
-            <img src="static/Images/Agape2.jpg" style="width:250px">
+            <img src="static/Images/Agape1.jpg" style="width:300px">
+            <img src="static/Images/Agape6.jpg" style="width:300px">
+            <img src="static/Images/Agape2.jpg" style="width:300px">
             </div>
             <div class="column">
-            <img src="static/Images/Agape9.jpg" style="width:250px">
-            <img src="static/Images/Agape4.jpg" style="width:250px">
-            <img src="static/Images/Agape3.jpg" style="width:250px">
-            <img src="static/Images/Agape10.jpg" style="width:250px">
+            <img src="static/Images/Agape9.jpg" style="width:300px">
+            <img src="static/Images/Agape4.jpg" style="width:300px">
+            <img src="static/Images/Agape3.jpg" style="width:300px">
+            <img src="static/Images/Agape10.jpg" style="width:300px">
             </div> 
         </div>
         </div>
@@ -40,8 +40,8 @@ export default {
 #ThisIsUs{
     width: 100%;
     padding-bottom: 4em;
-    padding-left: 19em;
-    padding-right: 19em;
+    padding-left: 14em;
+    padding-right: 14em;
 }
 #ThisIsUs h3{
     padding-bottom: 1em;
@@ -63,6 +63,8 @@ export default {
     flex: 33%;
     max-width: 33%;
     padding: 10px;
+    
+    
 }
 
 .column img {

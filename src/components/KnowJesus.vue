@@ -1,7 +1,7 @@
 <template> 
 <section id="know"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <div class="container-fluid"> 
+  <div class="knowc container-fluid"> 
   <div class="row"> 
       <div class="col-12 know-header">
           <div class="bg bg-center">
@@ -24,7 +24,7 @@
 <script> 
 export default { 
   name: 'KnowJesus' 
-} 
+}
 </script> 
   
 <style> 
@@ -36,17 +36,20 @@ export default {
     color: #FFFFFF; 
     padding: 250px; 
 } 
-.container-fluid { 
+.knowc { 
     background-image: url('/static/Images/Header Main.jpg');
     height: 100%;
     width: 100%; 
     padding-bottom: 3em;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-size: 100%;
 }
 #know p{
   padding-left: 10em;
   padding-right: 10em;
-} 
+}
+
 </style> 

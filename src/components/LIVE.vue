@@ -4,7 +4,7 @@
     <div class="container"> 
       <div class="row">
         <div class="col-5 live-side-image"> 
-        <div class="btn btn-light btn-rounded button">  
+        <div class="btn btn-light btn-rounded">  
         <i class="fas fa-play"></i>
         </div>  
         </div>

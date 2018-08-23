@@ -67,10 +67,10 @@ export default {
   color: #d03439;
 }
 #values h3{
-  margin-bottom: 4em;
+  margin-bottom: 5em;
 }
 .fas-image{
-  font-size: 32px;
-  padding-bottom: 0.5em;
+  font-size: 40px;
+  padding-bottom: 1em;
 }
 </style>

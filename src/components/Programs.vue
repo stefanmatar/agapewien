@@ -4,7 +4,7 @@
       <div class="row">
         <div class= "col-12">
         <h1>Programme</h1>
-        <h3><small class="text-muted  col-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</small></h3>
+        <h3><small class="text-muted  col-sx-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</small></h3>
         </div>
         <div class="row">
 
@@ -72,6 +72,7 @@ export default {
      margin: 0.5em;
  }
  #program h3{
+     text-align: center;
      padding-right: 25em;
      padding-left: 25em;
      padding-bottom: 2em;
