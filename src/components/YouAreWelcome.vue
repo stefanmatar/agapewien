@@ -14,7 +14,7 @@
             dolore magna aliquyam erat, sed diam voluptua.
           </p>
           <div class="btn btn-danger btn-rounded">
-            MAI MULTE
+            MEHR DAZU
           </div>
         </div>
       </div>

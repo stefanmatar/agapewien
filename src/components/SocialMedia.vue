@@ -9,7 +9,7 @@
       </div>
       <div class="row">
         <div class="col-3">
-          <img src="static/Images/Insta1.jpeg" class="image1" style="width:250px">
+          <img src="static/Images/Insta2.jpeg" class="image1" style="width:250px">
         </div>
         <div class="col-3">
           <img src="static/Images/Insta3.png" class="image3" style="width:300px">
