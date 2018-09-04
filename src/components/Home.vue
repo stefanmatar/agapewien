@@ -1,6 +1,5 @@
 <template>
   <div>
-    <img class="logo" src="static/logo.png" alt="Agape">
     <Navbar/>
     <Header/>
     <WhoWeAre/>
@@ -50,10 +49,4 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .logo {
-    width: 130px;
-    margin: 1em;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
 </style>
