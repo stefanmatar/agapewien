@@ -35,19 +35,25 @@
               class="fas fa-circle"></i></span></span>
             <ul class="navbar-nav nav-toolbar">
               <li class="nav-item">
-                <a style="color:white" class="nav-link" href="#">HOME</a>
+                <a style="color:white" class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a style="color:#949494" class="nav-link" href="#">ÜBER UNS</a>
+                <a style="color:#949494" class="nav-link" href="#">Über uns</a>
               </li>
               <li class="nav-item">
-                <a style="color:#949494" class="nav-link" href="#">LIVE</a>
+                <a style="color:#949494" class="nav-link" href="#">Werte</a>
               </li>
               <li class="nav-item">
-                <a style="color:#949494" class="nav-link" href="#">AGAPE SOCIAL</a>
+                <a style="color:#949494" class="nav-link" href="#">Live</a>
               </li>
               <li class="nav-item">
-                <a style="color:#949494" class="nav-link" href="#">KONTAKT</a>
+                <a style="color:#949494" class="nav-link" href="#">Pastoren</a>
+              </li>
+              <li class="nav-item">
+                <a style="color:#949494" class="nav-link" href="#">Programme</a>
+              </li>
+              <li class="nav-item">
+                <a style="color:#949494" class="nav-link" href="#">Kontakt</a>
               </li>
             </ul>
           </div>

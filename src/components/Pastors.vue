@@ -101,7 +101,7 @@
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .1s ease;
+  transition: 0.25s ease;
   width: 265px;
   height: 190px;
 }
