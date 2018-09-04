@@ -8,11 +8,13 @@
         </div>
         <div class="col-lg-5 you-side-text">
           <p class="paragraph-faded">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua.
           </p>
           <div class="btn btn-danger btn-rounded">
-             MAI MULTE
+            MAI MULTE
           </div>
         </div>
       </div>
@@ -21,33 +23,34 @@
 </template>
 
 <script>
-export default {
-  name: 'YouAreWelcome'
-}
+  export default {
+    name: 'YouAreWelcome'
+  }
 </script>
 
 <style>
-.you-side-text {
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-}
-#you {
-  background-color: #2c2c2c;
-  padding: 8em 0;
-}
-
-#you hr,
-#you p,
-#you h1,
-#you h2,
-#you h3 {
-  color: white;
-}
-
-.you-header {
-  text-align: left;
-}
+  .you-side-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  #you {
+    background-color: #2c2c2c;
+    padding: 8em 0;
+  }
+  
+  #you hr,
+  #you p,
+  #you h1,
+  #you h2,
+  #you h3 {
+    color: white;
+  }
+  
+  .you-header {
+    text-align: left;
+  }
 
 </style>
