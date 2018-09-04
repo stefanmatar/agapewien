@@ -1,49 +1,48 @@
 <template>
   <div>
     <img class="logo" src="static/logo.png" alt="Agape">
-    <toolbar/>
-    <KnowJesus>
-    </KnowJesus>
-    <who-we-are/>
-    <our-values/>
-    <LIVE/>
-    <pastoren/>
-    <this-is-us/>
+    <Navbar/>
+    <Header/>
+    <WhoWeAre/>
+    <OurValues/>
+    <Live/>
+    <Pastors/>
+    <ThisIsAgape/>
     <YouAreWelcome/>
     <Programs/>
-    <AgapeSocial/>
-    <WelcomeToAgapeSocial/>
+    <Departments/>
+    <SocialMedia/>
     <Footer/>
   </div>
 </template>
 
 <script>
-  import Toolbar from '@/components/Toolbar'
-  import KnowJesus from '@/components/KnowJesus'
+  import Navbar from '@/components/Navbar'
+  import Header from '@/components/Header'
   import WhoWeAre from '@/components/WhoWeAre'
   import OurValues from '@/components/OurValues'
-  import LIVE from '@/components/LIVE'
-  import Pastoren from '@/components/Pastoren'
-  import ThisIsUs from '@/components/ThisIsUs'
+  import Live from '@/components/Live'
+  import Pastors from '@/components/Pastors'
+  import ThisIsAgape from '@/components/ThisIsAgape'
   import YouAreWelcome from '@/components/YouAreWelcome'
   import Programs from '@/components/Programs'
-  import AgapeSocial from '@/components/AgapeSocial'
-  import WelcomeToAgapeSocial from '@/components/WelcomeToAgapeSocial'
+  import SocialMedia from '@/components/SocialMedia'
+  import Departments from '@/components/Departments'
   import Footer from '@/components/Footer'
   
   export default {
     components: {
-      Toolbar,
-      KnowJesus,
+      Navbar,
+      Header,
       WhoWeAre,
       OurValues,
-      LIVE,
-      Pastoren,
-      ThisIsUs,
+      Live,
+      Pastors,
+      ThisIsAgape,
       YouAreWelcome,
       Programs,
-      AgapeSocial,
-      WelcomeToAgapeSocial,
+      SocialMedia,
+      Departments,
       Footer,
     }
   }
