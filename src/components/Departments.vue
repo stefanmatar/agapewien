@@ -39,7 +39,7 @@
   }
   
   #agapesocial h3 {
-    color: rgba(0, 0, 0, 0.733);
+    color: rgba(0, 0, 0);
   }
   
   #agapesocial h2 {
@@ -47,7 +47,7 @@
   }
   
   #agapesocial p {
-    color: rgba(0, 0, 0, 0.733);
+    color: rgb(0, 0, 0);
     padding-top: 1.5em;
   }
   

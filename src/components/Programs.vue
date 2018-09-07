@@ -99,9 +99,9 @@
   
   #program h3 {
     text-align: center;
-    padding-right: 25em;
-    padding-left: 25em;
-    padding-bottom: 2em;
+    padding-right: 20em;
+    padding-left: 20em;
+    padding-bottom: 3em;
   }
   
   .Abend {

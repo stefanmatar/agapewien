@@ -44,7 +44,7 @@
     background-image: url('/static/Images/Header Main.jpg');
     height: 100%;
     width: 100%;
-    padding-bottom: 3em;
+    padding-bottom: 120px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -55,7 +55,7 @@
               <div class="card">
               <div class="card-body">
               <h5 class="card-title">Benjamin Lavu</h5>
-              <p class="card-text font-weight-light">Pastor</p>
+              <p class="card-text font-weight-light">Diakon</p>
               </div>
               </div>
               </div>
@@ -74,7 +74,7 @@
 <style>
   #pastoren {
     padding: 8em;
-    padding-bottom: 16em;
+    padding-bottom: 10em;
   }
 .image{
   width: 265px;
@@ -104,5 +104,8 @@
   transition: 0.25s ease;
   width: 265px;
   height: 190px;
+}
+.ImageHover1{
+  padding-top: 2em;
 }
 </style>

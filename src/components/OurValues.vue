@@ -10,7 +10,7 @@
             </small>
           </h3>
         </div>
-        <table class="col-12">
+        <table class="col-12 table">
           <tr>
             <th><i class="fas fa-dove fas-image"></i>
               <h3>Hoffnung</h3></th>
@@ -42,8 +42,10 @@
 <style>
   #values {
     background-color: white;
-    font-size: 10px;
-    padding: 14em 0;
+    font-size: 5px;
+    padding: 25em;
+    padding-left: 40em;
+    padding-right: 40em;
   }
   
   #values table {
@@ -75,7 +77,8 @@
   }
   
   #values th {
-    padding: 8em;
+    padding: 12em;
+    font-size: 5px;
   }
   
   #values th:hover {
@@ -87,7 +90,7 @@
   }
   
   .fas-image {
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 1em;
   }
 </style>

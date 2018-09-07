@@ -78,7 +78,7 @@
   #footer h5 {
     color: white;
     text-align: left;
-    padding-bottom:2em;
+    padding-bottom:1em;
   }
   
   #footer p {
