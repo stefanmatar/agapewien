@@ -14,50 +14,33 @@
         <div class="col-3 ImageHover1">
 
             <img src="static/Images/Pesel.jpg" alt="agape" class="image">
-              <div class="overlay">
-              <div class="card">
-              <div class="card-body">
-              <h5 class="card-title">Stefan Pesel</h5>
-              <p class="card-text font-weight-light">Pastor</p>
+              <div class="overlay border-left border-bottom border-right rounded-bottom">
+              <h5>Stefan Pesel</h5>
+              <p class="font-weight-light">Pastor</p>
               </div>
-              </div>
-              </div>
-
         </div>
 
         <div class="col-3 ImageHover1">
             <img src="static/Images/Peter.jpg" alt="agape" class="image">
-              <div class="overlay">
-              <div class="card">
-              <div class="card-body">
-              <h5 class="card-title">Samuel Peter</h5>
-              <p class="card-text font-weight-light">Pastor</p>
-              </div>
-              </div>
+              <div class="overlay border-left border-bottom border-right rounded-bottom">
+              <h5>Samuel Peter</h5>
+              <p class="font-weight-light">Pastor</p>
               </div>
         </div>
         
         <div class="col-3 ImageHover1">
             <img src="static/Images/Onisor.JPG" alt="agape" class="image">
-              <div class="overlay">
-              <div class="card">
-              <div class="card-body">
-              <h5 class="card-title">Nelu Onisor</h5>
-              <p class="card-text font-weight-light">Pastor</p>
-              </div>
-              </div>
+              <div class="overlay border-left border-bottom border-right rounded-bottom">
+              <h5>Nelu Onisor</h5>
+              <p class="font-weight-light">Pastor</p>
               </div>
         </div>
         
         <div class="col-3 ImageHover1">
             <img src="static/Images/Onisor.JPG" alt="agape" class="image">
-              <div class="overlay">
-              <div class="card">
-              <div class="card-body">
-              <h5 class="card-title">Benjamin Lavu</h5>
-              <p class="card-text font-weight-light">Diakon</p>
-              </div>
-              </div>
+              <div class="overlay border-left border-bottom border-right rounded-bottom">
+              <h5>Benjamin Lavu</h5>
+              <p class="font-weight-light">Diakon</p>
               </div>
         </div>
       </div>
@@ -74,7 +57,7 @@
 <style>
   #pastoren {
     padding: 8em;
-    padding-bottom: 10em;
+    padding-bottom: 1em;
   }
 .image{
   width: 265px;
@@ -86,12 +69,12 @@
   }
   
   #pastoren h5 {
-    margin-top: 0.5em;
     color: rgb(0, 0, 0);
+    padding-top: 21px;
   }
   
   #pastoren h3 {
-    margin-bottom: 2em;
+    margin-bottom: 10px;
   }
 
 .overlay {
@@ -103,9 +86,10 @@
   opacity: 0;
   transition: 0.25s ease;
   width: 265px;
-  height: 190px;
+  height: 100px;
 }
 .ImageHover1{
   padding-top: 2em;
 }
+
 </style>

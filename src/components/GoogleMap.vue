@@ -5,7 +5,7 @@
     <br>
     <gmap-map
       :center="{lat: 48.177608, lng: 16.397890} "
-      :zoom="16"
+      :zoom="18"
       style="width:100%;  height: 600px;"
     >
       <gmap-marker
