@@ -13,7 +13,7 @@
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
             dolore magna aliquyam erat, sed diam voluptua.
           </p>
-          <div class="btn btn-danger btn-rounded">
+          <div class="btn btn-rounded btn-outline-light youButton">
             MEHR DAZU
           </div>
         </div>
@@ -52,5 +52,7 @@
   .you-header {
     text-align: left;
   }
-
+.youButton{
+  background: #ad1818;
+}
 </style>
