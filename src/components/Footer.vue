@@ -7,18 +7,26 @@
         <div class="row">
           <div class="footer-header col-5">
             <h5>Du hast noch weitere Fragen?</h5>
-            <div class="button btn btn-dark btn-sm">
-              <i class="fab fa-facebook-square"></i>
-            </div>
-            <div class="button btn btn-dark btn-sm">
-              <i class="fab fa-instagram"></i>
-            </div>
-            <div class="button btn btn-dark btn-sm">
-              <i class="fab fa-twitter-square"></i>
-            </div>
-          </div>
+            <ul class="image-list1">
+              <li class="image-list2">
+                <a href="#" class="image-list3 rounded-circle btn-outline-light">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="image-list2">
+                <a href="#" class="image-list3 rounded-circle btn-outline-light">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="image-list2">
+                <a href="#" class="image-list3 rounded-circle btn-outline-light">
+                  <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+                </div>
           <div class="col-3">
-            <p class="number text-faded">Sie Wollen uns Kontaktieren? Wir sind jederzeit für sie da! +436641234567</p>
+            <p class="number text-faded">Sie wollen uns kontaktieren? Wir sind jederzeit für Sie da! +436641234567</p>
           </div>
           <div class="col-4">
             <p class="adress text-faded">Schlechtastraße 5 1100 Wien, Österreich</p>
@@ -103,13 +111,7 @@
   .adress {
     padding-right: 8em;
   }
-  
-  .fab {
-    color: white;
-    font-size: 20px;
-    float: left;
-  }
-  
+   
   .footer-header {
     padding-left: 12em;
   }
@@ -137,11 +139,28 @@
   .footer-text2 {
     font-size: 13px;
   }
-  
-  .button {
-    float: left;
-    background-color: #0000003b;
-    padding-bottom: 0.41em;
+  .image-list1{
+    position: absolute;
+    top:50%;
+    left:59%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    padding-top: 7em;
   }
+  .image-list2{
+    list-style: none;
+  }
+  .image-list3 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background: #0000003c;
+    color:white;
+    margin: 0 10px;
+  }
+
 </style>
 

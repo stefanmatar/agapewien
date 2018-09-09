@@ -86,7 +86,7 @@
   
   #welcome {
     padding: 4em;
-    padding-bottom: 0em;
+    padding-bottom: 3.5em;
   }
   
   .gaadiex-list-item-text {
