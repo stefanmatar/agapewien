@@ -16,7 +16,7 @@
             dolore magna aliquyam erat, sed diam voluptua.
           </p>
           <div class="btn btn-rounded btn-outline-light youButton">
-            <i class="fas fa-play"></i> MAI MULTE
+            <i class="fas fa-play who-fa-play"></i>MAI MULTE
           </div>
         </div>
       </div>
@@ -44,5 +44,8 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
+  }
+  .who-fa-play{
+    margin-right: 15px;
   }
 </style>

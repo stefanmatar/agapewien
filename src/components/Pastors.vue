@@ -1,5 +1,5 @@
 <template>
-  <section id="pastoren">
+  <section id="pastors">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -10,38 +10,43 @@
             </small>
           </h3>
         </div>
-
-        <div class="col-3 ImageHover1">
-
-            <img src="static/Images/Pesel.jpg" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Stefan Pesel</h5>
-              <p class="font-weight-light">Pastor</p>
-              </div>
-        </div>
-
-        <div class="col-3 ImageHover1">
-            <img src="static/Images/Peter.jpg" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Samuel Peter</h5>
-              <p class="font-weight-light">Pastor</p>
-              </div>
-        </div>
-        
-        <div class="col-3 ImageHover1">
-            <img src="static/Images/Onisor.JPG" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Nelu Onisor</h5>
-              <p class="font-weight-light">Pastor</p>
-              </div>
-        </div>
-        
-        <div class="col-3 ImageHover1">
-            <img src="static/Images/Onisor.JPG" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Benjamin Lavu</h5>
-              <p class="font-weight-light">Diakon</p>
-              </div>
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="static/Images/Pesel.jpg" alt="agape">
+                <div class="card-body">
+                <h5>Stefan Pesel</h5>
+                <p class="font-weight-light">Pastor</p>
+                </div>
+            </div>
+           </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="static/Images/Peter.jpg" alt="agape">
+                <div class="card-body">
+                <h5>Samuel Peter</h5>
+                <p class="font-weight-light">Pastor</p>
+                </div>
+            </div>
+           </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="static/Images/Onisor.JPG" alt="agape">
+                <div class="card-body">
+                <h5>Nelu Onisor</h5>
+                <p class="font-weight-light">Pastor</p>
+                </div>
+            </div>
+           </div>
+          <div class="col-3">
+            <div class="card">
+              <img class="card-img-top" src="static/Images/Pesel.jpg" alt="agape">
+                <div class="card-body">
+                <h5>Benjamin Lavu</h5>
+                <p class="font-weight-light">Pastor</p>
+                </div>
+            </div>
+           </div>
         </div>
       </div>
     </div>
@@ -49,47 +54,20 @@
 </template>
 
 <script>
-  export default {
-    name: 'Pastoren'
-  }
+export default {
+  name: 'Pastors'
+}
 </script>
 
 <style>
-  #pastoren {
-    padding: 8em;
-    padding-bottom: 1em;
+  #pastors{
+    padding: 8em 0 0 0;
   }
-.image{
-  width: 260px;
-  height: 173.33px;
-}
-
-  .ImageHover1:hover .overlay{
-    opacity: 1;
-  }
-  
-  #pastoren h5 {
+  #pastors h5 {
     color: rgb(0, 0, 0);
-    padding-top: 21px;
   }
-  
-  #pastoren h3 {
-    margin-bottom: 10px;
+  .card-img-top{
+    width: 100%;
+    height: 185px;
   }
-
-.overlay {
-  position: center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: 0.25s ease;
-  width: 260.99px;
-  height: 100px;
-}
-.ImageHover1{
-  padding-top: 2em;
-}
-
 </style>

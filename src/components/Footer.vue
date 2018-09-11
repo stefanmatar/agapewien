@@ -8,16 +8,16 @@
         <div class="col-3">
           <h2 class="font-weight-bold">SOCIAL</h2>
           <div class="social-text">
-          <a href="https://de-de.facebook.com/AgapeWien/" class="rounded-circle btn-outline-light social-button">
+          <a href="https://de-de.facebook.com/AgapeWien/" class="rounded-circle social-button" style="color:white">
             <i class="fab fa-facebook"></i>
           </a>
-          <a href="https://www.instagram.com/agapewien/?hl=de" class="rounded-circle btn-outline-light social-button">
+          <a href="https://www.instagram.com/agapewien/?hl=de" class="rounded-circle social-button" style="color:white">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://www.youtube.com/channel/UCxBofq4UIEiwXEgp3yerJRQ" class="rounded-circle btn-outline-light social-button">
+          <a href="https://www.youtube.com/channel/UCxBofq4UIEiwXEgp3yerJRQ" class="rounded-circle social-button" style="color:white">
             <i class="fab fa-youtube"></i>
           </a>
-          <a href="https://medium.com/agapewien" class="rounded-circle btn-outline-light social-button">
+          <a href="https://medium.com/agapewien" class="rounded-circle social-button" style="color:white">
             <i class="fab fa-medium"></i>
           </a>
           </div>
@@ -93,28 +93,24 @@
     padding: 0;
   }
   #footer h2 {
-    color:#ad1818;
+    color:white;
     font-size: 16px;
     margin: 14px 0 0 0;
     letter-spacing: 3px;
     text-align: left;
   }
   .footer-text{
-  margin-bottom: 4em;
+    margin-bottom: 4em;
   }
   .social-text{
-  text-align: left;
-  color: white;
-  margin: 20px 0 0 1.5px;
+    text-align: left;
+    color: white;
+    margin: 20px 0 0 1.5px;
   }
   .social-button{
-  transform: translate(-10px,-4px);
-  float: left;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 30px;
-  text-align: center;
+    float: left;
+    width: 50px;
+    font-size: 30px;
   }
   .konakt-text{
     text-align: left;
@@ -123,15 +119,15 @@
     font-size: 15px;
   }
   .adresse-text{
-  text-align: left;
-  color: white;
-  margin: 0;
-  font-size: 15px;
+    text-align: left;
+    color: white;
+    margin: 0;
+    font-size: 15px;
   }
   @media screen and (max-width: 1000px) {
-  .FooterNavbar{
-    display:none;
+    .FooterNavbar{
+      display:none;
+    }
   }
-}
 </style>
 
