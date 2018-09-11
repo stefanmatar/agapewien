@@ -2,7 +2,7 @@
   <section id="welcome">
     <div class="container">
       <div class="col-12">
-        <h1>Welcome to Agape <span style="color:#ad1818">Social</span></h1>
+        <h1>Social Media</h1>
         <h4>
           <small class="text-muted col-4">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
@@ -10,19 +10,21 @@
         </h4>
       </div>
       <div class="row">
-        <div class="col-2">
-          <img src="static/images/Insta2.jpeg" class="image1" style="width:190px">
+        <div class="col-lg-8 col-md-12 row social-media-images">
+          <div class="col-md-4 col-xs-12">
+            <img src="static/images/social_media/3.png" class="social-media-image">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img src="static/images/social_media/2.png" class="social-media-image">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img src="static/images/social_media/1.png" class="social-media-image">
+          </div>
         </div>
-        <div class="col-2">
-          <img src="static/images/Insta1.jpeg" class="image2" style="width:190px">
-        </div>
-        <div class="col-2">
-          <img src="static/images/Insta3.png" class="image3" style="width:250px">
-        </div>
-        <div class="col-6">
+        <div class="col-lg-4 col-md-12">
           <div class="list">
             <div class="list-item">
-              <i class="social fas fa-brush"></i>
+              <i class="social fas fa-brush red"></i>
               <div class="list-item-text">
                 <h5 class="text-left font-weight-bold" style="font-size:16px">Täglich neue Designs</h5>
                 <p class="text-left text-muted">
@@ -65,9 +67,6 @@
 </template>
 
 <script>
-  export default {
-    name: 'WelcomeToAgapeSocial'
-  }
 </script>
 
 <style>
@@ -75,56 +74,55 @@
     padding: 4em 0 0 0;
     margin-left: 0;
   }
+  
   #welcome p {
     margin: 0;
     padding-bottom: 1em;
   }
+  
+  .social-media-image {
+    margin: 0.5em;
+    height: 400px;
+  }
+  
   #welcoem h5 {
     margin: 0;
   }
+  
   .social {
     float: left;
-    color: #ad1818;
     font-size: 30px;
     width: 58px;
     height: 58px;
     margin: 2px 0 0 22px; /*oben unten rechts links */
   }
-  .image1 {
-    padding-top: 4em;
-    padding-right: 0.5em;
-    margin-left: 3em;
-  }
-  .image2 {
-    padding-top: 4em;
-    padding-left: 0.5em;
-    margin-left: 3em;
-  }
-  .image3 {
-    margin-left: 3em;
-  }
+  
   .list-item-text {
     padding-left: 6em;
     padding-bottom: 1em;
-    font-size:14px;
+    font-size: 14px;
   }
+  
   .list {
     padding-left: 10em;
     padding-top: 4em;
   }
+  
   @media screen and (max-width: 1200px) {
-  .image1,
-  .image2{
-    display:none;
-  }
-  .image3{
-    float: right;
-    margin:0;
-    padding:0;
-  }
-  .list{
-    margin:0;
-    padding:2.5em 0 0 0;
-  }
+    .image1,
+    .image2 {
+      display: none;
+    }
+    
+    .image3 {
+      float: right;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .list {
+      margin: 0;
+      padding: 2.5em 0 0 0;
+    }
   }
 </style>

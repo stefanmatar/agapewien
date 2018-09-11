@@ -52,7 +52,7 @@
     width: 100px;
     height: 250px;
     position:relative;
-    background: url('/static/images/Live2.jpg') 0 0 no-repeat / cover;
+    background: url('/static/images/banner/live.jpg') 0 0 no-repeat / cover;
   }
   .ButtonCenter{
     position: absolute;

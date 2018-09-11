@@ -3,45 +3,33 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1>Pastoren</h1>
-          <h3>
-            <small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-            </small>
+          <h1 class="pastors-header">Pastoren</h1>
+          <h3 class="pastors-text">
+            Wir lieben unsere Pastoren.
           </h3>
         </div>
-
-        <div class="col-3 ImageHover1">
-
-            <img src="static/images/Pesel.jpg" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Stefan Pesel</h5>
-              <p class="font-weight-light">Pastor</p>
-              </div>
-        </div>
-
-        <div class="col-3 ImageHover1">
-            <img src="static/images/Peter.jpg" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Samuel Peter</h5>
-              <p class="font-weight-light">Pastor</p>
-              </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+          <img src="static/images/pastors/pesel.jpg" alt="Pastor Pesel" class="image">
+          <h5 class="pastors-name">Stefan Pesel</h5>
+          <p class="font-weight-light">Pastor</p>
         </div>
         
-        <div class="col-3 ImageHover1">
-            <img src="static/images/Onisor.JPG" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Nelu Onisor</h5>
-              <p class="font-weight-light">Pastor</p>
-              </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+          <img src="static/images/pastors/peter.jpg" alt="Pastor Peter" class="image">
+          <h5 class="pastors-name">Samoel Peter</h5>
+          <p class="font-weight-light">Pastor</p>
         </div>
         
-        <div class="col-3 ImageHover1">
-            <img src="static/images/Onisor.JPG" alt="agape" class="image">
-              <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
-              <h5>Benjamin Lavu</h5>
-              <p class="font-weight-light">Diakon</p>
-              </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+          <img src="static/images/pastors/onisor.jpg" alt="Pastor Onisor" class="image">
+          <h5 class="pastors-name">Nelu Onisor</h5>
+          <p class="font-weight-light">Pastor</p>
+        </div>
+        
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+          <img src="static/images/pastors/onisor.jpg" alt="agape" class="image">
+          <h5 class="pastors-name">Beni Lavu</h5>
+          <p class="font-weight-light">Diakon</p>
         </div>
       </div>
     </div>
@@ -49,47 +37,23 @@
 </template>
 
 <script>
-  export default {
-    name: 'Pastoren'
-  }
 </script>
 
 <style>
-  #pastoren {
-    padding: 8em;
-    padding-bottom: 1em;
-  }
-.image{
-  width: 260px;
-  height: 173.33px;
-}
-
-  .ImageHover1:hover .overlay{
-    opacity: 1;
+  .image {
+    width: 250px;
   }
   
-  #pastoren h5 {
-    color: rgb(0, 0, 0);
-    padding-top: 21px;
+  .pastors-header {
+    margin-top: 3em;
+    margin-bottom: 1em;
   }
   
-  #pastoren h3 {
-    margin-bottom: 10px;
+  .pastors-text {
+    margin-bottom: 3em;
   }
-
-.overlay {
-  position: center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: 0.25s ease;
-  width: 260.99px;
-  height: 100px;
-}
-.ImageHover1{
-  padding-top: 2em;
-}
-
+  
+  .pastors-name {
+    margin-top: 1em;
+  }
 </style>

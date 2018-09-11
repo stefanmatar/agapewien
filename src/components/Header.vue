@@ -20,7 +20,7 @@
 
 <style>
   #header {
-    background: url('/static/images/header2.jpg') no-repeat center center fixed;
+    background: url('/static/images/banner/header2.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
     height: 100vh;
