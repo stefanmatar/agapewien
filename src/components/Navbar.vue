@@ -48,6 +48,10 @@
 </script>
 
 <style>
+  .navbar {
+    padding: 1.5rem 4rem;
+  }
+  
   .navbar-logo {
     width: 140px;
     margin-right: 1em;

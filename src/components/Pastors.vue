@@ -13,7 +13,7 @@
 
         <div class="col-3 ImageHover1">
 
-            <img src="static/Images/Pesel.jpg" alt="agape" class="image">
+            <img src="static/images/Pesel.jpg" alt="agape" class="image">
               <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
               <h5>Stefan Pesel</h5>
               <p class="font-weight-light">Pastor</p>
@@ -21,7 +21,7 @@
         </div>
 
         <div class="col-3 ImageHover1">
-            <img src="static/Images/Peter.jpg" alt="agape" class="image">
+            <img src="static/images/Peter.jpg" alt="agape" class="image">
               <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
               <h5>Samuel Peter</h5>
               <p class="font-weight-light">Pastor</p>
@@ -29,7 +29,7 @@
         </div>
         
         <div class="col-3 ImageHover1">
-            <img src="static/Images/Onisor.JPG" alt="agape" class="image">
+            <img src="static/images/Onisor.JPG" alt="agape" class="image">
               <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
               <h5>Nelu Onisor</h5>
               <p class="font-weight-light">Pastor</p>
@@ -37,7 +37,7 @@
         </div>
         
         <div class="col-3 ImageHover1">
-            <img src="static/Images/Onisor.JPG" alt="agape" class="image">
+            <img src="static/images/Onisor.JPG" alt="agape" class="image">
               <div class="overlay border-left border-bottom border-right rounded-bottom shadow">
               <h5>Benjamin Lavu</h5>
               <p class="font-weight-light">Diakon</p>

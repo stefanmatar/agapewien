@@ -52,7 +52,7 @@
     width: 100px;
     height: 250px;
     position:relative;
-    background: url('/static/Images/Live2.jpg') 0 0 no-repeat / cover;
+    background: url('/static/images/Live2.jpg') 0 0 no-repeat / cover;
   }
   .ButtonCenter{
     position: absolute;
@@ -69,7 +69,7 @@
   .live-side-text{
     margin:0;
     padding: 2em 0 0 0;
-  }  
+  }
   }
 }
 </style>

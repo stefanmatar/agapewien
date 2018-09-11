@@ -11,13 +11,13 @@
       </div>
       <div class="row">
         <div class="col-2">
-          <img src="static/Images/Insta2.jpeg" class="image1" style="width:190px">
+          <img src="static/images/Insta2.jpeg" class="image1" style="width:190px">
         </div>
         <div class="col-2">
-          <img src="static/Images/Insta1.jpeg" class="image2" style="width:190px">
+          <img src="static/images/Insta1.jpeg" class="image2" style="width:190px">
         </div>
         <div class="col-2">
-          <img src="static/Images/Insta3.png" class="image3" style="width:250px">
+          <img src="static/images/Insta3.png" class="image3" style="width:250px">
         </div>
         <div class="col-6">
           <div class="list">
