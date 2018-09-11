@@ -2,7 +2,7 @@
   <section id="values">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-12">
           <h1> Unsere Werte</h1>
           <h3>
             <small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
@@ -10,21 +10,21 @@
             </small>
           </h3>
         </div>
-        <table class="col-12 table">
+        <table class="col-12">
           <tr>
-            <th><i class="fas fa-dove fas-image"></i>
+            <th class="TableValues"><i class="fas fa-dove ImageValues"></i>
               <h3>Hoffnung</h3></th>
-            <th><i class="fas fa-heart fas-image"></i>
+            <th class="TableValues"><i class="fas fa-heart ImageValues"></i>
               <h3>Liebe</h3></th>
-            <th><i class="fas fa-church fas-image"></i>
+            <th class="TableValues"><i class="fas fa-church ImageValues"></i>
               <h3>Glaube</h3></th>
           </tr>
           <tr>
-            <th><i class="fas fa-book-open fas-image"></i>
+            <th class="TableValues"><i class="fas fa-book-open ImageValues"></i>
               <h3>Wort</h3></th>
-            <th><i class="fas fa-hands fas-image"></i>
+            <th class="TableValues"><i class="fas fa-hands ImageValues"></i>
               <h3>Gebet</h3></th>
-            <th><i class="fas fa-music fas-image"></i>
+            <th class="TableValues"><i class="fas fa-music ImageValues"></i>
               <h3>Lobpreis</h3></th>
           </tr>
         </table>
@@ -43,54 +43,49 @@
   #values {
     background-color: white;
     font-size: 5px;
-    padding: 25em;
-    padding-left: 40em;
-    padding-right: 40em;
+    padding: 20em 0 20em 0;
   }
-  
+  #values h1,h3{
+    margin-bottom: 20px;
+  }
   #values table {
     border-collapse: collapse;
   }
-  
   #values table td, table th {
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-bottom: 0;
-    
+    border-bottom: 0; 
   }
-  
   #values table tr:first-child th {
     border-top: 0;
   }
-  
   #values table tr:last-child td {
     border-bottom: 0;
   }
-  
   #values table tr td:first-child,
   #values table tr th:first-child {
     border-left: 0;
   }
-  
   #values table tr td:last-child,
   #values table tr th:last-child {
     border-right: 0;
   }
-  
   #values th {
     padding: 12em;
     font-size: 5px;
   }
-  
   #values th:hover {
     color: #d03439;
   }
-  
   #values h3 {
     margin-bottom: 5em;
   }
-  
-  .fas-image {
+  .ImageValues {
     font-size: 30px;
     padding-bottom: 1em;
+  }
+  @media screen and (max-width: 800px) {
+    .TableValues{
+      display:block;
+    }
   }
 </style>
