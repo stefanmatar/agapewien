@@ -1,14 +1,15 @@
 <template>
   <div>
     <nav class="navbar fixed-top navbar-light navbar-expand-md bg-white">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler collapsed" 
-        type="button" 
-        data-toggle="collapse" 
-        data-target="#navigation"
-        aria-controls="navbarsExample04" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">
+        <img src="/static/logo.png" alt="Agape Wien" class="navbar-logo">
+      </a>
+      <button class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navigation"
+              aria-controls="navigation"
+              aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse" id="navigation">
@@ -47,13 +48,16 @@
 </script>
 
 <style>
-  .logo {
+  .navbar-logo {
     width: 140px;
+    margin-right: 1em;
   }
+  
   .navbar-brand {
     margin: 0;
   }
+  
   .navbar-light .navbar-toggler {
-     border: none;
+    border: none;
   }
 </style>
