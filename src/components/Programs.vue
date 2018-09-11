@@ -100,12 +100,13 @@
     border-right: 0;
   }
 
-  @media screen and (max-width: 750px) {
-    .tableProgram{
-      display:table-row;
-    }
+  @media screen and (max-width: 850px) {
      #program h5{
        padding: 3em 0 0 0;
      }
+    #program table tr th:first-child,
+    #program table tr th:last-child{
+      display: none;
+    }
   }
 </style>
