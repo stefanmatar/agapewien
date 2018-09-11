@@ -50,7 +50,8 @@ export default {
   .live-side-image {
     width: 100px;
     height: 250px;
-    background: url('/static/Images/Live2.jpg') 0 0 no-repeat / cover;
+    position:relative;
+    background: url('/static/images/Live2.jpg') 0 0 no-repeat / cover;
   }
   .ButtonCenter{
     position: absolute;
