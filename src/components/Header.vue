@@ -1,21 +1,12 @@
 <template>
   <section id="header">
-    <div class="header container-fluid">
-      <div class="row">
-        <div class="col-sm-12 know-header">
-          <div class="bg bg-center BackgroundHeader">
-            <h2>Know Jesus - Know Peace</h2>
-            <p class="paragraph-faded">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-              et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
-            <div class="container">
-              <div class="btn btn-light btn-rounded">
-                <i class="fas fa-play"></i> MEHR DAZU
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="text-center">
+      <h1>Willkommen</h1>
+      <p class="paragraph-faded">
+        Gottes Liebe ist für jeden. Wir sind hier, um sie zu teilen.
+      </p>
+      <div class="btn btn-light btn-rounded">
+        MEHR DAZU
       </div>
     </div>
   </section>
@@ -28,34 +19,15 @@
 </script>
 
 <style>
-  .BackgroundHeader {
-    color: #FFFFFF;
-    padding: 250px;
-  }
-  .header {
-    background-image: url('/static/Images/Header Main.jpg');
-    height: 100%;
-    width: 100%;
-    padding-bottom: 120px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  #header {
+    background: url('/static/images/header2.jpg') no-repeat fixed center;
     background-size: 100%;
+    height: 100vh;
+    width: 100%;
   }
-  #header p {
-    margin-bottom: 10px;
-  }
-  @media screen and (max-width: 1100px) {
-    .header{
-      background-size: 1080px;
-    }
-  }
-  @media screen and (max-width: 800px) {
-    .header{
-      background-size: 1080px;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
+  
+  .text-center {
+    color: white;
+    padding: 300px;
   }
 </style>
