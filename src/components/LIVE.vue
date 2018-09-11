@@ -3,10 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 live-side-image">
-          <div class="ButtonCenter">
-            <div class="btn btn-light btn-rounded">
+            <div class="btn btn-light btn-rounded ButtonCenter">
               <i class="fas fa-play"></i>
-            </div>
           </div>
         </div>
         <div class="col-lg-5 live-side-text">
@@ -17,7 +15,7 @@
             dolore magna aliquyam erat, sed diam voluptua.
           </p>
           <div class="btn btn-light btn-rounded">
-            <i class="fas fa-play"></i> LIVE
+            <i class="fas fa-play"></i>LIVE
           </div>
         </div>
       </div>
@@ -26,9 +24,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'Live'
-  }
+export default {
+  name: 'Live'
+}
 </script>
 
 <style>
@@ -43,7 +41,8 @@
     color: black;
   }
   .live-side-text {
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
     font-size: 16px;
     line-height: 1.5;
     text-align: left;

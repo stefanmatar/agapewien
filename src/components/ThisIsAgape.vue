@@ -31,15 +31,32 @@
             <img src="static/images/people/12.jpg" class="people-image">
           </div>
         </div>
+        <div class="column">
+          <img src="static/Images/Agape1.jpg" style="width:100%">
+          <img src="static/Images/Agape6.jpg" style="width:100%">
+          <img src="static/Images/Agape2.jpg" style="width:100%">
+        </div>
+        <div class="column">
+        <img src="static/Images/Agape9.jpg" style="width:100%">
+        <img src="static/Images/Agape4.jpg" style="width:100%">
+        <img src="static/Images/Agape3.jpg" style="width:100%">
+        <img src="static/Images/Agape10.jpg" style="width:100%">
+      </div>
+        <div class="column">
+          <img src="static/Images/Agape9.jpg" style="width:100%">
+          <img src="static/Images/Agape4.jpg" style="width:100%">
+          <img src="static/Images/Agape3.jpg" style="width:100%">
+          <img src="static/Images/Agape10.jpg" style="width:100%">
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  export default {
-    name: 'ThisIsAgape'
-  }
+export default {
+  name: 'ThisIsAgape'
+}
 </script>
 
 <style>
@@ -57,7 +74,8 @@
   }
   
   .column img {
-    margin-top: 20px;
+    margin-top: 8px;
+    vertical-align: middle;
   }
   
   @media screen and (max-width: 1000px) {
