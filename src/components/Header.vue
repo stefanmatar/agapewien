@@ -5,8 +5,8 @@
       <p class="paragraph-faded">
         Gottes Liebe ist für jeden. Wir sind hier, um sie zu teilen.
       </p>
-      <div class="btn btn-light btn-rounded">
-        MEHR DAZU
+      <div class="btn btn-light btn-rounded text-uppercase">
+        mehr dazu
       </div>
     </div>
   </section>
@@ -28,6 +28,6 @@
   
   .text-center {
     color: white;
-    padding: 300px;
+    padding-top: 300px;
   }
 </style>
