@@ -29,30 +29,21 @@
 </script>
 
 <style>
+  #you {
+    background-color: #2c2c2c;
+    padding: 8em 0;
+    color: white;
+  }
   .you-side-text {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
   }
-  
-  #you {
-    background-color: #2c2c2c;
-    padding: 8em 0;
-  }
-  
-  #you hr,
-  #you p,
-  #you h1,
-  #you h2,
-  #you h3 {
-    color: white;
-  }
-  
   .you-header {
     text-align: left;
   }
-.youButton{
-  background: #ad1818;
-}
+  .youButton{
+    background: #ad1818;
+  }
 </style>

@@ -1,15 +1,15 @@
 <template>
   <section id="live">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <div class="container">
       <div class="row">
-        <div class="col-5 live-side-image">
-          <div class="btn btn-light btn-rounded">
-            <i class="fas fa-play"></i>
+        <div class="col-lg-6 live-side-image">
+          <div class="ButtonCenter">
+            <div class="btn btn-light btn-rounded">
+              <i class="fas fa-play"></i>
+            </div>
           </div>
         </div>
-        <div class="col-7 live-side-text">
+        <div class="col-lg-5 live-side-text">
           <h3>GOTTESDIENST</h3>
           <h2>JEDEN SONNTAG</h2>
           <p class="paragraph-faded">
@@ -27,38 +27,49 @@
 
 <script>
   export default {
-    name: 'LIVE'
+    name: 'Live'
   }
 </script>
 
 <style>
-  .live-side-text {
-    line-height: 1.5;
-    text-align: left;
-    padding-left: 5em;
-  }
-  
   #live {
     background-color: #ad1818;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding: 8em 0;
   }
-  
   #live h2 {
     color: white;
   }
-  
   #live h3 {
     color: black;
   }
-  
-  .live-side-image {
-    background-image: url('/static/Images/Live2.jpg');
-    height: 250px;
-    padding-top: 107px;
-    padding-left: 41.5px;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 800px;
+  .live-side-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
   }
+  .live-side-image {
+    width: 100px;
+    height: 250px;
+    position:relative;
+    background: url('/static/Images/Live2.jpg') 0 0 no-repeat / cover;
+  }
+  .ButtonCenter{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  @media screen and (max-width: 1300px) {
+  .live-side-image{
+    width:500px;
+    margin:0;
+    padding: 0;
+  }
+  @media screen and (max-width: 992px){
+  .live-side-text{
+    margin:0;
+    padding: 2em 0 0 0;
+  }  
+  }
+}
 </style>

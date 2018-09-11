@@ -13,7 +13,8 @@
         v-for="(m, index) in markers"
         :position="m.position"
         @click="center=m.position"
-      ></gmap-marker>
+        >
+      </gmap-marker>
     </gmap-map>
   </div>
 </template>
@@ -34,7 +35,6 @@ export default {
   mounted() {
     this.geolocate();
   },
-
   methods: {
     setPlace(place) {
       this.currentPlace = place;

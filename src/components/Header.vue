@@ -1,11 +1,9 @@
 <template>
-  <section id="know">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <div class="knowc container-fluid">
+  <section id="header">
+    <div class="header container-fluid">
       <div class="row">
-        <div class="col-12 know-header">
-          <div class="bg bg-center">
+        <div class="col-sm-12 know-header">
+          <div class="bg bg-center BackgroundHeader">
             <h2>Know Jesus - Know Peace</h2>
             <p class="paragraph-faded">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
@@ -30,17 +28,11 @@
 </script>
 
 <style>
-  .container {
-    margin-bottom: 1em;
-    margin-top: 1em;
-  }
-  
-  .bg {
+  .BackgroundHeader {
     color: #FFFFFF;
     padding: 250px;
   }
-  
-  .knowc {
+  .header {
     background-image: url('/static/Images/Header Main.jpg');
     height: 100%;
     width: 100%;
@@ -51,10 +43,19 @@
     background-size: cover;
     background-size: 100%;
   }
-  
-  #know p {
-    padding-left: 10em;
-    padding-right: 10em;
+  #header p {
+    margin-bottom: 10px;
   }
-
+  @media screen and (max-width: 1100px) {
+    .header{
+      background-size: 1080px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .header{
+      background-size: 1080px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
 </style>
