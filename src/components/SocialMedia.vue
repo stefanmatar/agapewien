@@ -1,32 +1,24 @@
 <template>
-  <section id="welcome">
+  <section id="social-media" class="section">
     <div class="container">
       <div class="col-12">
-        <h1>Social Media</h1>
-        <h4>
-          <small class="text-muted col-4">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-          </small>
+        <h1 class="section-header">Social Media</h1>
+        <h4 class="section-text">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
         </h4>
       </div>
       <div class="row">
-        <div class="col-lg-8 col-md-12 row social-media-images">
-          <div class="col-md-4 col-xs-12">
-            <img src="static/images/social_media/3.png" class="social-media-image">
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <img src="static/images/social_media/2.png" class="social-media-image">
-          </div>
-          <div class="col-md-4 col-xs-12">
-            <img src="static/images/social_media/1.png" class="social-media-phone">
-          </div>
+        <div class="col-lg-7 col-md-12 social-media-images">
+          <img src="static/images/social_media/3.png" class="social-media-image">
+          <img src="static/images/social_media/2.png" class="social-media-image">
+          <img src="static/images/social_media/1.png" class="social-media-phone">
         </div>
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-5 col-md-12 margin-bottom">
           <div class="list">
             <div class="list-item">
-              <i class="social fas fa-brush red"></i>
+              <i class="social fas fa-brush"></i>
               <div class="list-item-text">
-                <h5 class="text-left font-weight-bold" style="font-size:16px">Täglich neue Designs</h5>
+                <h5 class="text-left font-weight-bold list-item-title">Täglich neue Designs</h5>
                 <p class="text-left text-muted">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                 </p>
@@ -35,7 +27,7 @@
             <div class="list-item">
               <i class="social fas fa-binoculars"></i>
               <div class="list-item-text">
-                <h5 class="text-left font-weight-bold" style="font-size:16px">Entdecke die Schrift neu</h5>
+                <h5 class="text-left font-weight-bold list-item-title">Entdecke die Schrift neu</h5>
                 <p class="text-left text-muted">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                 </p>
@@ -44,7 +36,7 @@
             <div class="list-item">
               <i class="social fas fa-book"></i>
               <div class="list-item-text">
-                <h5 class="text-left font-weight-bold" style="font-size:16px">Botschaften aus Gottes Wort</h5>
+                <h5 class="text-left font-weight-bold list-item-title">Botschaften aus Gottes Wort</h5>
                 <p class="text-left text-muted">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                 </p>
@@ -53,7 +45,7 @@
             <div class="list-item">
               <i class="social fas fa-couch"></i>
               <div class="list-item-text">
-                <h5 class="text-left font-weight-bold" style="font-size:16px">Bequem vom Handy aus</h5>
+                <h5 class="text-left font-weight-bold list-item-title">Bequem vom Handy aus</h5>
                 <p class="text-left text-muted">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
                 </p>
@@ -79,14 +71,14 @@
     margin: 0;
     padding-bottom: 1em;
   }
-
+  
   .social-media-image {
-    margin: 0.5em;
+    margin-right: 0.5em;
     height: 300px;
   }
+  
   .social-media-phone {
-    margin: 0.5em;
-    height: 400px;
+    height: 445px;
   }
   
   #welcoem h5 {
@@ -101,14 +93,21 @@
     margin: 2px 0 0 22px; /*oben unten rechts links */
   }
   
+  .list {
+    padding-top: 4em;
+  }
+  
   .list-item-text {
     padding-left: 6em;
     padding-bottom: 1em;
     font-size: 14px;
   }
   
-  .list {
-    padding-left: 10em;
-    padding-top: 4em;
+  .list-item-title {
+    font-size: 16px;
+  }
+  
+  .margin-bottom {
+    margin-bottom: 3em;
   }
 </style>
