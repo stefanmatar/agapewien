@@ -1,5 +1,5 @@
 <template>
-  <section id="who">
+  <section id="who" class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 who-header">

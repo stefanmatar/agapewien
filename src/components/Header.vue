@@ -2,20 +2,18 @@
   <section id="header">
     <div class="text-center">
       <h1>Willkommen</h1>
-      <p class="paragraph-faded">
-        Gottes Liebe ist für jeden. Wir sind hier, um sie zu teilen.
-      </p>
+      <h3 class="sub-header">
+        Gottes Liebe ist für jeden.<br>
+        Wir sind hier, um sie zu teilen.
+      </h3>
       <div class="btn btn-light btn-rounded text-uppercase">
-        mehr dazu
+        mehr erfahren
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  export default {
-    name: 'KnowJesus'
-  }
 </script>
 
 <style>
@@ -25,6 +23,10 @@
     max-width: 100%;
     height: 100vh;
     width: 100%;
+  }
+  
+  .sub-header {
+    line-height: 30px;
   }
   
   .text-center {

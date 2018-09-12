@@ -18,7 +18,7 @@
             <img src="static/images/social_media/2.png" class="social-media-image">
           </div>
           <div class="col-md-4 col-xs-12">
-            <img src="static/images/social_media/1.png" class="social-media-image">
+            <img src="static/images/social_media/1.png" class="social-media-phone">
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
@@ -79,8 +79,12 @@
     margin: 0;
     padding-bottom: 1em;
   }
-  
+
   .social-media-image {
+    margin: 0.5em;
+    height: 300px;
+  }
+  .social-media-phone {
     margin: 0.5em;
     height: 400px;
   }
@@ -106,23 +110,5 @@
   .list {
     padding-left: 10em;
     padding-top: 4em;
-  }
-  
-  @media screen and (max-width: 1200px) {
-    .image1,
-    .image2 {
-      display: none;
-    }
-    
-    .image3 {
-      float: right;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .list {
-      margin: 0;
-      padding: 2.5em 0 0 0;
-    }
   }
 </style>

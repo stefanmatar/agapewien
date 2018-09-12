@@ -2,10 +2,10 @@
   <section id="footer">
     <div class="container">
       <div class="row footer-text">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-12 col-xs-12">
           <h1>Agape<span class="fas fa-circle" style="color:#ad1818; font-size:8px;"></span></h1>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-xs-12">
           <h2 class="font-weight-bold">SOCIAL</h2>
           <div class="social-text">
           <a href="https://de-de.facebook.com/AgapeWien/" class="rounded-circle social-button" style="color:white">
@@ -22,13 +22,13 @@
           </a>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-xs-12">
           <h2 class="font-weight-bold" style="margin-bottom:20px">KONTAKT</h2>
           <p class="konakt-text">Jederzeit,</p>
           <p class="konakt-text">wir sind 24/7 für Sie da.</p>
           <p class="konakt-text">+43664444444</p>
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 col-xs-12">
           <h2 class="font-weight-bold" style="margin-bottom:20px">ADRESSE</h2>
           <p class="adresse-text">Schlechtastraße 5, 1110 Wien</p>
           <p class="adresse-text">Austria, Europe</p>
