@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar fixed-top navbar-light navbar-expand-md bg-white">
       <a class="navbar-brand" href="#">
-        <img src="/static/logo.png" alt="Agape Wien" class="navbar-logo">
+        <img src="/static/images/logos/logo.png" alt="Agape Wien" class="navbar-logo">
       </a>
       <button class="navbar-toggler collapsed"
               type="button"
