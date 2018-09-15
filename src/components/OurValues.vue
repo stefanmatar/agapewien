@@ -16,28 +16,28 @@
                 <p>Hoffnung</p>
               </div>
               <div class="col-lg-4 col-xs-1 value">
-                <i class="fas fa-dove"></i>
-                <p>Hoffnung</p>
+                <i class="fas fa-heart"></i>
+                <p>Glaube</p>
               </div>
               <div class="col-lg-4 col-xs-1 value">
-                <i class="fas fa-dove"></i>
-                <p>Hoffnung</p>
+                <i class="fas fa-church"></i>
+                <p>Liebe</p>
               </div>
             </div>
           </div>
           <div class="container">
             <div class="row">
               <div class="col-lg-4 col-xs-3 value">
-                <i class="fas fa-dove"></i>
-                <p>Hoffnung</p>
+                <i class="fas fa-book-open"></i>
+                <p>Wort</p>
               </div>
               <div class="col-lg-4 col-xs-3 value">
-                <i class="fas fa-dove"></i>
-                <p>Hoffnung</p>
+                <i class="fas fa-hands"></i>
+                <p>Gebet</p>
               </div>
               <div class="col-lg-4 col-xs-3 value">
-                <i class="fas fa-dove"></i>
-                <p>Hoffnung</p>
+                <i class="fas fa-music"></i>
+                <p>Lobpreis</p>
               </div>
             </div>
           </div>
@@ -68,10 +68,11 @@
   
   .values i {
     font-size: 25px;
+    margin-bottom: 25px
   }
   
   .values .value {
-    padding: 30px;
+    padding: 80px;
   }
 
   .values .value:not(:first-child) {
@@ -80,5 +81,12 @@
 
   .values .container:first-child {
     border-bottom: 1px solid lightgrey;
+  }
+
+
+  @media all and (max-width: 800px) {
+    .values * {
+      border: none !important;
+    }
   }
 </style>

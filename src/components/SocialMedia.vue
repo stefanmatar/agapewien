@@ -9,8 +9,6 @@
       </div>
       <div class="row">
         <div class="col-lg-7 col-md-12 social-media-images">
-          <img src="static/images/social_media/3.png" class="social-media-image">
-          <img src="static/images/social_media/2.png" class="social-media-image">
           <img src="static/images/social_media/1.png" class="social-media-phone">
         </div>
         <div class="col-lg-5 col-md-12 margin-bottom">

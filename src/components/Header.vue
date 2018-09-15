@@ -3,14 +3,11 @@
     <div class="text-center">
       <h1>Willkommen<span class="red">.</span></h1>
       <p class="header-subtext">
-        <!--Gottes Liebe ist für jeden.<br>
-        Wir sind hier, um sie mit Dir zu teilen.-->
-        Lorem ipsum dolor sit amet, <br>
-        consetetur sadipscing elitr sed diam, <br>
-        nonumy eirmod tempor invidunt ut.
+        Gottes Liebe ist für jeden.<br>
+        Wir sind hier, um sie mit Dir zu teilen.
       </p>
       <div class="btn btn-light btn-rounded btn-primary">
-        mehr dazu
+        Mehr dazu
       </div>
     </div>
   </section>
@@ -21,7 +18,7 @@
 
 <style>
   #header {
-    background: url('/static/images/banner/background.jpg') no-repeat center center fixed;
+    background: url('/static/images/banner/header2.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
     height: 100vh;

@@ -1,22 +1,21 @@
 <template>
-  <section id="live" class="section">
+  <section id="live" class="section red-bg text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-sm-12 live-side-image">
+        <div class="col-lg-5 col-sm-12 live-side-image">
           <div class="btn btn-light btn-rounded live-btn">
             <i class="fas fa-play"></i>
           </div>
         </div>
-        <div class="col-lg-6 col-sm-12 text-left">
-          <h3>GOTTESDIENST</h3>
-          <h1 class="section-header">JEDEN SONNTAG</h1>
-          <p class="paragraph-faded">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
+        <div class="col-lg-6 col-sm-12">
+          <h2 class="text-left">Jeden Sonntag morgen & abend</h2>
+          <h3 class="text-left">Gottesdienst online sehen</h3>
+          <p class="section-text-heading live-times">
+            9:30-12:00<br>
+            17:30-19:00
           </p>
-          <div class="btn btn-light btn-rounded">
-            <i class="fas fa-play live-btn-lg"></i>
-            LIVE
+          <div class="btn btn-light btn-rounded section-btn-primary">
+            Ansehen
           </div>
         </div>
       </div>
@@ -31,28 +30,8 @@
 </script>
 
 <style>
-  #live {
-    background-color: #ad1818;
-    padding: 8em 0;
-  }
-  
-  #live h2 {
-    color: white;
-  }
-  
-  #live h3 {
-    color: black;
-  }
-  
-  .live-side-text {
-    margin: 0 0 20px 0;
-    padding: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left;
-  }
-  
   .live-side-image {
+    margin: 0 40px;
     width: 100px;
     height: 250px;
     position: relative;
@@ -66,7 +45,7 @@
     transform: translate(-50%, -50%);
   }
   
-  .live-btn-lg {
-    margin-right: 1em;
+  .live-times {
+    letter-spacing: 2px;
   }
 </style>

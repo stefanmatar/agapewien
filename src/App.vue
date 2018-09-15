@@ -52,7 +52,7 @@
   }
   
   .grey-bg {
-    background-color: #272727
+    background-color: #272727;
   }
   
   .dark-grey {
@@ -98,7 +98,7 @@
   }
   
   .section {
-    padding: 140px 10px;
+    padding: 140px 10px !important;
   }
   
   .section-header {

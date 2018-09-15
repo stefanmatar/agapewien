@@ -54,13 +54,16 @@
     }
   }
   .sections-nav {
-    font-family: Montserrat;
     margin-top: 10px;
     padding-top: 0;
   }
   
   .navbar {
     padding: 1.5rem 4rem;
+  }
+  
+  .nav-link {
+    margin: 0 1em;
   }
   
   .agape-nav {
