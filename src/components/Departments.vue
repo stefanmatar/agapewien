@@ -20,7 +20,7 @@
             </span>
           </p>
           <div class="btn btn-light btn-rounded section-btn-primary">
-            MEHR DAZU
+            Mehr dazu<i class="fas fa-arrow-right"></i>
           </div>
         </div>
       </div>

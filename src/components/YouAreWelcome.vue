@@ -20,7 +20,7 @@
             </span>
           </p>
           <div class="btn btn-light btn-rounded section-btn-primary">
-              Das kommt auf Dich zu <i class="fas fa-arrow-right"></i>
+            Das kommt auf Dich zu<i class="fas fa-arrow-right"></i>
           </div>
         </div>
       </div>
@@ -32,7 +32,4 @@
 </script>
 
 <style>
-  .fa-arrow-right{
-    margin-left: 1em;
-  }
 </style>

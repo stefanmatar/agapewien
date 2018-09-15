@@ -125,4 +125,8 @@
     margin-top: 40px;
     float: left;
   }
+  
+  .fa-arrow-right{
+    margin-left: 1em;
+  }
 </style>

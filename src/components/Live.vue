@@ -15,7 +15,7 @@
             17:30-19:00
           </p>
           <div class="btn btn-light btn-rounded section-btn-primary">
-            Ansehen
+            Archiv<i class="fas fa-arrow-right"></i>
           </div>
         </div>
       </div>

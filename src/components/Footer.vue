@@ -74,6 +74,9 @@
 </script>
 
 <style>
+  #footer {
+    padding-top: 40px;
+  }
   #footer h2 {
     text-align: left;
   }

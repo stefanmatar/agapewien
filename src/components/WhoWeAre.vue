@@ -12,15 +12,16 @@
         </div>
         <div class="col-lg-6">
           <p class="section-text-heading">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
+            Liebe Gott. Liebe deinen Nächsten.
             <span class="section-text">
               <br>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              Das sind die Prinzipien, nach denen wir leben. In Gemeinschaft & Liebe wollen wir
+              spirituell wachsen. Das bedeutet morgen ein besserer Mensch zu sein,
+              als wir es gestern waren.
             </span>
           </p>
           <div class="btn btn-light btn-rounded section-btn-primary">
-            MEHR DAZU
+            Mehr erfahren<i class="fas fa-arrow-right"></i>
           </div>
         </div>
       </div>

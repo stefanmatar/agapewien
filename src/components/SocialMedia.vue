@@ -53,7 +53,7 @@
             </div>
           </div>
           <a class="btn btn-rounded red-bg text-white follow-btn" href="https://www.instagram.com/agapewien/">
-            Folge uns auf Instagram <i class="fas fa-arrow-right"></i>
+            Folge uns auf Instagram
           </a>
         </div>
       </div>
