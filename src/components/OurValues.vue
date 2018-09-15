@@ -82,8 +82,7 @@
   .values .container:first-child {
     border-bottom: 1px solid lightgrey;
   }
-
-
+  
   @media all and (max-width: 800px) {
     .values * {
       border: none !important;

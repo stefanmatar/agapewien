@@ -1,24 +1,26 @@
 <template>
   <section id="social-media" class="section">
     <div class="container">
-      <div class="col-12">
-        <h1 class="section-header">Social Media</h1>
-        <h4 class="section-text">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-        </h4>
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center red">Mobil unterwegs?</h2>
+          <h3 class="pastors-heading">
+            Agape Social
+          </h3>
+        </div>
       </div>
       <div class="row">
-        <div class="col-lg-7 col-md-12 social-media-images">
+        <div class="col-lg-6 col-md-12 social-media-images">
           <img src="static/images/social_media/1.png" class="social-media-phone">
         </div>
-        <div class="col-lg-5 col-md-12 margin-bottom">
+        <div class="col-lg-6 col-md-12">
           <div class="list">
             <div class="list-item">
               <i class="social fas fa-brush"></i>
               <div class="list-item-text">
                 <h5 class="text-left font-weight-bold list-item-title">Täglich neue Designs</h5>
                 <p class="text-left text-muted">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Damit der Seele sowie dem Auge unsere Bilder gefällt.
                 </p>
               </div>
             </div>
@@ -27,7 +29,7 @@
               <div class="list-item-text">
                 <h5 class="text-left font-weight-bold list-item-title">Entdecke die Schrift neu</h5>
                 <p class="text-left text-muted">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Das Wort Gottes ist vielfältig und bunt.
                 </p>
               </div>
             </div>
@@ -36,7 +38,7 @@
               <div class="list-item-text">
                 <h5 class="text-left font-weight-bold list-item-title">Botschaften aus Gottes Wort</h5>
                 <p class="text-left text-muted">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Ungefiltert & schön präsentiert.
                 </p>
               </div>
             </div>
@@ -45,11 +47,14 @@
               <div class="list-item-text">
                 <h5 class="text-left font-weight-bold list-item-title">Bequem vom Handy aus</h5>
                 <p class="text-left text-muted">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                  Wo auch immer Du bist,<br>wir bringen Dir Hoffnung in den Alltag.
                 </p>
               </div>
             </div>
           </div>
+          <a class="btn btn-rounded red-bg text-white follow-btn" href="https://www.instagram.com/agapewien/">
+            Folge uns auf Instagram <i class="fas fa-arrow-right"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -60,27 +65,8 @@
 </script>
 
 <style>
-  #welcome {
-    padding: 4em 0 0 0;
-    margin-left: 0;
-  }
-  
-  #welcome p {
-    margin: 0;
-    padding-bottom: 1em;
-  }
-  
-  .social-media-image {
-    margin-right: 0.5em;
-    height: 300px;
-  }
-  
   .social-media-phone {
-    height: 445px;
-  }
-  
-  #welcoem h5 {
-    margin: 0;
+    height: 500px;
   }
   
   .social {
@@ -92,7 +78,7 @@
   }
   
   .list {
-    padding-top: 4em;
+    margin: 3em 0;
   }
   
   .list-item-text {
@@ -103,9 +89,5 @@
   
   .list-item-title {
     font-size: 16px;
-  }
-  
-  .margin-bottom {
-    margin-bottom: 3em;
   }
 </style>
