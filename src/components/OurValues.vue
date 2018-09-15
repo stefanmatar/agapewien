@@ -8,42 +8,35 @@
             Eine Kirche,<br>die Gott im Mittelpunkt hat.
           </h3>
         </div>
-        <div class="values col-lg-12">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-xs-1 value">
-                <i class="fas fa-dove"></i>
-                <p>Hoffnung</p>
-              </div>
-              <div class="col-lg-4 col-xs-1 value">
-                <i class="fas fa-heart"></i>
-                <p>Glaube</p>
-              </div>
-              <div class="col-lg-4 col-xs-1 value">
-                <i class="fas fa-church"></i>
-                <p>Liebe</p>
-              </div>
+        <div class="values">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-dove"></i>
+              <p>Hoffnung</p>
             </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-xs-3 value">
-                <i class="fas fa-book-open"></i>
-                <p>Wort</p>
-              </div>
-              <div class="col-lg-4 col-xs-3 value">
-                <i class="fas fa-hands"></i>
-                <p>Gebet</p>
-              </div>
-              <div class="col-lg-4 col-xs-3 value">
-                <i class="fas fa-music"></i>
-                <p>Lobpreis</p>
-              </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-heart"></i>
+              <p>Glaube</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-church"></i>
+              <p>Liebe</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-book-open"></i>
+              <p>Wort</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-hands"></i>
+              <p>Gebet</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-music"></i>
+              <p>Lobpreis</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 </template>
@@ -74,18 +67,28 @@
   .values .value {
     padding: 80px;
   }
-
+  
   .values .value:not(:first-child) {
     border-left: 1px solid lightgrey;
   }
-
-  .values .container:first-child {
+  
+  .values .value:nth-child(4) {
+    border-left: none;
+  }
+  
+  .values .value:nth-child(1),
+  .values .value:nth-child(2),
+  .values .value:nth-child(3) {
     border-bottom: 1px solid lightgrey;
   }
   
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 991px) {
     .values * {
       border: none !important;
+    }
+    
+    .value {
+      padding: 20px !important;
     }
   }
 </style>
