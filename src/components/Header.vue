@@ -1,13 +1,16 @@
 <template>
   <section id="header">
     <div class="text-center">
-      <h1>Willkommen</h1>
-      <h3 class="sub-header">
-        Gottes Liebe ist für jeden.<br>
-        Wir sind hier, um sie zu teilen.
-      </h3>
-      <div class="btn btn-light btn-rounded text-uppercase">
-        mehr erfahren
+      <h1>Willkommen<span class="red">.</span></h1>
+      <p class="header-subtext">
+        <!--Gottes Liebe ist für jeden.<br>
+        Wir sind hier, um sie mit Dir zu teilen.-->
+        Lorem ipsum dolor sit amet, <br>
+        consetetur sadipscing elitr sed diam, <br>
+        nonumy eirmod tempor invidunt ut.
+      </p>
+      <div class="btn btn-light btn-rounded btn-primary">
+        mehr dazu
       </div>
     </div>
   </section>
@@ -27,10 +30,6 @@
 
   #header .text-center {
     color: white;
-    padding-top: 300px;
-  }
-  
-  .sub-header {
-    line-height: 30px;
+    padding-top: 30vh;
   }
 </style>

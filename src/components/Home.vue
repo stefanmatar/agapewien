@@ -6,7 +6,6 @@
     <OurValues/>
     <Live/>
     <Pastors/>
-    <ThisIsAgape/>
     <YouAreWelcome/>
     <Programs/>
     <Departments/>

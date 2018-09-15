@@ -1,6 +1,6 @@
 <template>
   <section class="grey-background">
-    <div class="container">
+    <div class="container footer-links">
       <div class="row">
         <div class="col-lg-3 col-md-12">
           <img src="/static/images/logos/agape_long_white.png" alt="Agape Wien" class="navbar-logo">
@@ -76,5 +76,13 @@
 </script>
 
 <style>
+  .footer-links {
+    padding-top: 120px;
+  }
+  
+  .footer-heading {
+    font-size: 15px;
+    word-spacing: 3px;
+  }
 </style>
 

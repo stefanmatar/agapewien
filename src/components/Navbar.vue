@@ -54,6 +54,7 @@
     }
   }
   .sections-nav {
+    font-family: Montserrat;
     margin-top: 10px;
     padding-top: 0;
   }

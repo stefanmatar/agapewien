@@ -1,22 +1,26 @@
 <template>
-  <section id="who" class="section">
+  <section id="red-bg" class="section red-bg text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 who-header">
-          <h4>O biserica pasionata de Dumnezeu</h4>
+        <div class="col-lg-6">
           <h2>Cine suntem?</h2>
         </div>
-        <div class="col-lg-5 who-side-text">
-          <p class="paragraph">
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>O biserica pasionata de Dumnezeu</h3>
+        </div>
+        <div class="col-lg-6">
+          <p class="section-text-heading">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
             dolore magna aliquyam erat, sed diam voluptua.
+            <span class="section-text">
+              <br>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            </span>
           </p>
-          <p class="paragraph-faded">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
-          </p>
-          <div class="btn btn-rounded btn-outline-light youButton">
-            <i class="fas fa-play who-fa-play"></i>MAI MULTE
+          <div class="btn btn-rounded section-btn-primary">
+            MEHR DAZU
           </div>
         </div>
       </div>
@@ -25,27 +29,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'WhoWeAre'
-  }
 </script>
 
 <style>
-  #who {
-    background-color: #2c2c2c;
-    padding: 8em 0;
-    color: white;
-  }
-  .who-header {
-    text-align: left;
-  }
-  .who-side-text {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left;
-  }
-  .who-fa-play{
-    margin-right: 15px;
-  }
 </style>
