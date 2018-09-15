@@ -1,14 +1,14 @@
 <template>
   <div>
-    <nav class="navbar fixed-top navbar-expand-md bg-white navbar-light agape-nav">
-      <a class="navbar-brand abs" href="#">
+    <nav class="navbar navbar-expand-md bg-white navbar-light agape-nav">
+      <a class="abs" href="#">
         <img src="/static/images/logos/agape_long_dark.png" alt="Agape Wien" class="navbar-logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
-    <nav class="navbar fixed-top navbar-expand-md bg-white navbar-light sections-nav">
+    <nav class="navbar navbar-expand-md bg-white navbar-light sections-nav">
       <div class="navbar-collapse collapse abs" id="collapsingNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -43,20 +43,27 @@
 
 <style>
   @media (min-width: 768px) {
-    .navbar-brand.abs {
+    .abs {
       position: absolute;
       width: 100%;
       left: 0;
       text-align: center;
     }
+    .sections-nav {
+      margin-top: 80px;
+    }
   }
-  
   .sections-nav {
-    margin-top: 65px;
+    margin-top: 10px;
+    padding-top: 0;
   }
   
   .navbar {
     padding: 1.5rem 4rem;
+  }
+  
+  .agape-nav {
+    padding-top: 50px;
   }
   
   .navbar-logo {
@@ -67,7 +74,5 @@
     border: none;
   }
   
-  .agape-nav {
-    padding: 3em;
-  }
+  
 </style>

@@ -24,13 +24,13 @@
     height: 100vh;
     width: 100%;
   }
+
+  #header .text-center {
+    color: white;
+    padding-top: 300px;
+  }
   
   .sub-header {
     line-height: 30px;
-  }
-  
-  .text-center {
-    color: white;
-    padding-top: 300px;
   }
 </style>
