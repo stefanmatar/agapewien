@@ -3,12 +3,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h2>Cine suntem?</h2>
+          <h2 class="text-left">Cine suntem?</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <h3>O biserica pasionata de Dumnezeu</h3>
+          <h3 class="text-left">O biserica pasionata de Dumnezeu</h3>
         </div>
         <div class="col-lg-6">
           <p class="section-text-heading">

@@ -80,15 +80,13 @@
     text-transform: uppercase;
     color: #272727;
     margin-bottom: 20px;
-    text-align: left;
     letter-spacing: 3px;
   }
   
   h3 {
     font-family: Montserrat-SemiBold !important;
-    font-size: 36px !important;
+    font-size: 28px !important;
     letter-spacing: 1.25px !important;
-    text-align: left !important;
     text-transform: none !important;
   }
   

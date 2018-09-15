@@ -1,34 +1,49 @@
 <template>
-  <section id="values">
+  <section id="values" class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1> Unsere Werte</h1>
+          <h2 class="text-center red">Unsere Werte</h2>
           <h3>
-            <small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-            </small>
+            Eine Kirche,<br>die Gott im Mittelpunkt hat.
           </h3>
         </div>
-        <table class="col-12">
-          <tr>
-            <th class="TableValues"><i class="fas fa-dove ImageValues"></i>
-              <h3>Hoffnung</h3></th>
-            <th class="TableValues"><i class="fas fa-heart ImageValues"></i>
-              <h3>Liebe</h3></th>
-            <th class="TableValues"><i class="fas fa-church ImageValues"></i>
-              <h3>Glaube</h3></th>
-          </tr>
-          <tr>
-            <th class="TableValues"><i class="fas fa-book-open ImageValues"></i>
-              <h3>Wort</h3></th>
-            <th class="TableValues"><i class="fas fa-hands ImageValues"></i>
-              <h3>Gebet</h3></th>
-            <th class="TableValues"><i class="fas fa-music ImageValues"></i>
-              <h3>Lobpreis</h3></th>
-          </tr>
-        </table>
+        <div class="values col-lg-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-xs-1 value">
+                <i class="fas fa-dove"></i>
+                <p>Hoffnung</p>
+              </div>
+              <div class="col-lg-4 col-xs-1 value">
+                <i class="fas fa-dove"></i>
+                <p>Hoffnung</p>
+              </div>
+              <div class="col-lg-4 col-xs-1 value">
+                <i class="fas fa-dove"></i>
+                <p>Hoffnung</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-xs-3 value">
+                <i class="fas fa-dove"></i>
+                <p>Hoffnung</p>
+              </div>
+              <div class="col-lg-4 col-xs-3 value">
+                <i class="fas fa-dove"></i>
+                <p>Hoffnung</p>
+              </div>
+              <div class="col-lg-4 col-xs-3 value">
+                <i class="fas fa-dove"></i>
+                <p>Hoffnung</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
     </div>
   </section>
 </template>
@@ -40,52 +55,30 @@
 </script>
 
 <style>
-  #values {
-    background-color: white;
-    font-size: 5px;
-    padding: 20em 0 20em 0;
+  .values {
+    margin-top: 60px;
   }
-  #values h1,h3{
-    margin-bottom: 20px;
+  
+  .values p {
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
-  #values table {
-    border-collapse: collapse;
+  
+  .values i {
+    font-size: 25px;
   }
-  #values table td, table th {
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-bottom: 0; 
+  
+  .values .value {
+    padding: 30px;
   }
-  #values table tr:first-child th {
-    border-top: 0;
+
+  .values .value:not(:first-child) {
+    border-left: 1px solid lightgrey;
   }
-  #values table tr:last-child td {
-    border-bottom: 0;
-  }
-  #values table tr td:first-child,
-  #values table tr th:first-child {
-    border-left: 0;
-  }
-  #values table tr td:last-child,
-  #values table tr th:last-child {
-    border-right: 0;
-  }
-  #values th {
-    padding: 12em;
-    font-size: 5px;
-  }
-  #values th:hover {
-    color: #d03439;
-  }
-  #values h3 {
-    margin-bottom: 5em;
-  }
-  .ImageValues {
-    font-size: 30px;
-    padding-bottom: 1em;
-  }
-  @media screen and (max-width: 800px) {
-    .TableValues{
-      display:block;
-    }
+
+  .values .container:first-child {
+    border-bottom: 1px solid lightgrey;
   }
 </style>
