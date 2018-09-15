@@ -18,9 +18,34 @@
     text-align: center;
     color: #2c3e50;
   }
-  
+
   .red {
-    color: #ad1818;
+    color: #D0343A;
+  }
+
+  .red-background {
+    background-color: #D0343A;
+  }
+
+  .grey {
+    color: #272727;
+  }
+
+  .grey-background {
+    background-color: #272727
+  }
+
+  .dark-grey {
+    color: #242424;
+  }
+
+  .dark-grey-background {
+    background-color: #242424;
+    color: white;
+  }
+  .dark-grey-background a {
+    background-color: #242424;
+    color: white;
   }
   
   .section {

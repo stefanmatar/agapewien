@@ -1,44 +1,38 @@
 <template>
   <div>
-    <nav class="navbar fixed-top navbar-light navbar-expand-md bg-white">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar fixed-top navbar-expand-md bg-white navbar-light agape-nav">
+      <a class="navbar-brand abs" href="#">
         <img src="/static/images/logos/agape_long_dark.png" alt="Agape Wien" class="navbar-logo">
       </a>
-      <button class="navbar-toggler collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navigation"
-              aria-controls="navigation"
-              aria-expanded="false">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="navigation">
-        <ul class="navbar-nav mr-auto">
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-md bg-white navbar-light sections-nav">
+      <div class="navbar-collapse collapse abs" id="collapsingNavbar">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#who">Über uns</a>
+            <a class="nav-link" href="#about">ÜBER UNS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#values">Werte</a>
+            <a class="nav-link" href="#about">LIVE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#live">Live</a>
+            <a class="nav-link" href="#about">SOCIAL</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pastors">Pastoren</a>
+            <a class="nav-link" href="#about">IMPRESSUM</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#program">Programme</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">Kontakt</a>
-          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
         </ul>
       </div>
     </nav>
   </div>
+
 </template>
 
 <script>
@@ -48,20 +42,32 @@
 </script>
 
 <style>
+  @media (min-width: 768px) {
+    .navbar-brand.abs {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      text-align: center;
+    }
+  }
+  
+  .sections-nav {
+    margin-top: 65px;
+  }
+  
   .navbar {
     padding: 1.5rem 4rem;
   }
   
   .navbar-logo {
     width: 140px;
-    margin-right: 1em;
-  }
-  
-  .navbar-brand {
-    margin: 0;
   }
   
   .navbar-light .navbar-toggler {
     border: none;
+  }
+  
+  .agape-nav {
+    padding: 3em;
   }
 </style>

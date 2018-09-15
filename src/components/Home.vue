@@ -11,7 +11,6 @@
     <Programs/>
     <Departments/>
     <SocialMedia/>
-    <GoogleMap/>
     <Footer/>
   </div>
 </template>
@@ -28,7 +27,6 @@
   import Programs from '@/components/Programs'
   import SocialMedia from '@/components/SocialMedia'
   import Departments from '@/components/Departments'
-  import GoogleMap from '@/components/GoogleMap'
   import Footer from '@/components/Footer'
   
   export default {
@@ -44,7 +42,6 @@
       Programs,
       SocialMedia,
       Departments,
-      GoogleMap,
       Footer,
     }
   }
