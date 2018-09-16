@@ -15,11 +15,11 @@
               <p>Hoffnung</p>
             </div>
             <div class="col-lg-4 col-sm-6 col-xs-2 value">
-              <i class="fas fa-heart"></i>
+              <i class="fas fa-church"></i>
               <p>Glaube</p>
             </div>
             <div class="col-lg-4 col-sm-6 col-xs-2 value">
-              <i class="fas fa-church"></i>
+              <i class="fas fa-heart"></i>
               <p>Liebe</p>
             </div>
             <div class="col-lg-4 col-sm-6 col-xs-2 value">
