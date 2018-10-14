@@ -6,12 +6,10 @@
     <OurValues/>
     <Live/>
     <Pastors/>
-    <ThisIsAgape/>
     <YouAreWelcome/>
     <Programs/>
     <Departments/>
     <SocialMedia/>
-    <GoogleMap/>
     <Footer/>
   </div>
 </template>
@@ -28,7 +26,6 @@
   import Programs from '@/components/Programs'
   import SocialMedia from '@/components/SocialMedia'
   import Departments from '@/components/Departments'
-  import GoogleMap from '@/components/GoogleMap'
   import Footer from '@/components/Footer'
   
   export default {
@@ -44,12 +41,10 @@
       Programs,
       SocialMedia,
       Departments,
-      GoogleMap,
-      Footer
+      Footer,
     }
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 </style>

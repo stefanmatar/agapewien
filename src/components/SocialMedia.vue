@@ -1,57 +1,60 @@
 <template>
-  <section id="welcome">
+  <section id="social-media" class="section">
     <div class="container">
-      <div class="col-12">
-        <h1>Welcome to Agape <span style="color:#ad1818">Social</span></h1>
-        <h4>
-          <small class="text-muted col-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</small>
-        </h4>
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center red">Mobil unterwegs?</h2>
+          <h3 class="pastors-heading">
+            Agape Social
+          </h3>
+        </div>
       </div>
       <div class="row">
-        <div class="col-3">
-          <img src="static/Images/Insta2.jpeg" class="image1" style="width:250px">
+        <div class="col-lg-6 col-md-12 social-media-images">
+          <img src="static/images/social_media/1.png" class="social-media-phone">
         </div>
-        <div class="col-3">
-          <img src="static/Images/Insta3.png" class="image3" style="width:300px">
-        </div>
-        <div class="col-6">
-          <div class="gaadiex-list">
-            <div class="gaadiex-list-item">
+        <div class="col-lg-6 col-md-12">
+          <div class="list">
+            <div class="list-item">
               <i class="social fas fa-brush"></i>
-              <div class="gaadiex-list-item-text">
-                <h5 class="text-left font-weight-bold">Täglich neue Designs</h5>
-                <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum
-                  dolor sit amet, consetetur sadipscing elitr.</p>
+              <div class="list-item-text">
+                <h5 class="text-left font-weight-bold list-item-title">Täglich neue Designs</h5>
+                <p class="text-left text-muted">
+                  Damit der Seele sowie dem Auge unsere Bilder gefällt.
+                </p>
               </div>
             </div>
-            
-            <div class="gaadiex-list-item">
+            <div class="list-item">
               <i class="social fas fa-binoculars"></i>
-              <div class="gaadiex-list-item-text">
-                <h5 class="text-left font-weight-bold">Entdecke die Schrift neu</h5>
-                <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum
-                  dolor sit amet, consetetur sadipscing elitr.</p>
-              
+              <div class="list-item-text">
+                <h5 class="text-left font-weight-bold list-item-title">Entdecke die Schrift neu</h5>
+                <p class="text-left text-muted">
+                  Das Wort Gottes ist vielfältig und bunt.
+                </p>
               </div>
             </div>
-            <div class="gaadiex-list-item">
+            <div class="list-item">
               <i class="social fas fa-book"></i>
-              <div class="gaadiex-list-item-text">
-                <h5 class="text-left font-weight-bold">Botschaften aus Gottes Wort</h5>
-                <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum
-                  dolor sit amet, consetetur sadipscing elitr.</p>
+              <div class="list-item-text">
+                <h5 class="text-left font-weight-bold list-item-title">Botschaften aus Gottes Wort</h5>
+                <p class="text-left text-muted">
+                  Ungefiltert & schön präsentiert.
+                </p>
               </div>
             </div>
-            
-            <div class="gaadiex-list-item">
+            <div class="list-item">
               <i class="social fas fa-couch"></i>
-              <div class="gaadiex-list-item-text">
-                <h5 class="text-left font-weight-bold">Bequem vom Handy aus</h5>
-                <p class="text-left text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.Lorem ipsum
-                  dolor sit amet, consetetur sadipscing elitr.</p>
+              <div class="list-item-text">
+                <h5 class="text-left font-weight-bold list-item-title">Bequem vom Handy aus</h5>
+                <p class="text-left text-muted">
+                  Wo auch immer Du bist,<br>wir bringen Dir Hoffnung in den Alltag.
+                </p>
               </div>
             </div>
           </div>
+          <a class="btn btn-rounded red-bg text-white follow-btn" href="https://www.instagram.com/agapewien/">
+            Folge uns auf Instagram
+          </a>
         </div>
       </div>
     </div>
@@ -59,52 +62,32 @@
 </template>
 
 <script>
-  export default {
-    name: 'WelcomeToAgapeSocial'
-  }
 </script>
 
 <style>
+  .social-media-phone {
+    height: 500px;
+  }
+  
   .social {
     float: left;
-    color: #ad1818;
     font-size: 30px;
     width: 58px;
     height: 58px;
-    margin-right: 20px;
+    margin: 2px 0 0 22px; /*oben unten rechts links */
   }
   
-  .image1 {
-    padding-top: 3em;
-    padding-right: 0.5em;
+  .list {
+    margin: 3em 0;
   }
   
-  .image2 {
-    padding-top: 3em;
-    padding-left: 0.5em;
-  }
-  
-  #welcome {
-    padding: 4em;
-    padding-bottom: 0em;
-  }
-  
-  .gaadiex-list-item-text {
-    padding-left: 4em;
+  .list-item-text {
+    padding-left: 6em;
     padding-bottom: 1em;
+    font-size: 14px;
   }
   
-  .gaadiex-list {
-    padding-left: 2em;
-    padding-top: 4em;
-  }
-  
-  #welcome p {
-    margin: 0;
-    padding-bottom: 1em;
-  }
-  
-  #welcoem h5 {
-    margin: 0;
+  .list-item-title {
+    font-size: 16px;
   }
 </style>

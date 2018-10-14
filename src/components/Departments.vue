@@ -1,18 +1,27 @@
 <template>
-  <section id="agapesocial">
+  <section id="who" class="section red-bg text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 agapesocial-header">
-          <h3>AGAPE - SOCIAL</h3>
-          <h2>Du willst auch unter der Woche Agape?</h2>
+        <div class="col-lg-6">
+          <h2 class="text-left">Departments</h2>
         </div>
-        <div class="col-lg-5 agapesocial-side-text">
-          <p class="text-faded">
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="text-left">Viele Hände werden gebraucht!</h3>
+        </div>
+        <div class="col-lg-6">
+          <p class="section-text-heading">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
             dolore magna aliquyam erat, sed diam voluptua.
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
+            <span class="section-text">
+              <br>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            </span>
           </p>
+          <div class="btn btn-light btn-rounded section-btn-primary">
+            Mehr dazu<i class="fas fa-arrow-right"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -20,51 +29,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'AgapeSocial'
-  }
 </script>
 
 <style>
-  .agapesocial-side-text {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left;
-  }
-  
-  #agapesocial {
-    background-color: #ad1818;
-    padding: 8em 0;
-  }
-  
-  #agapesocial h3 {
-    color: rgba(0, 0, 0);
-  }
-  
-  #agapesocial h2 {
-    color: white;
-  }
-  
-  #agapesocial p {
-    color: rgb(0, 0, 0);
-    padding-top: 1.5em;
-  }
-  
-  .agapesocial-header {
-    text-align: left;
-  }
-  
-  .mapouter {
-    text-align: right;
-    height: 664px;
-    width: 1080px;
-  }
-  
-  .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 664px;
-    width: 1080px;
-  }
 </style>

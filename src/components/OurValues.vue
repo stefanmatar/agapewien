@@ -1,33 +1,41 @@
 <template>
-  <section id="values">
+  <section id="values" class="section">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h1> Unsere Werte</h1>
+        <div class="col-lg-12">
+          <h2 class="text-center red">Unsere Werte</h2>
           <h3>
-            <small class="text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-            </small>
+            Eine Kirche,<br>die Gott im Mittelpunkt hat.
           </h3>
         </div>
-        <table class="col-12 table">
-          <tr>
-            <th><i class="fas fa-dove fas-image"></i>
-              <h3>Hoffnung</h3></th>
-            <th><i class="fas fa-heart fas-image"></i>
-              <h3>Liebe</h3></th>
-            <th><i class="fas fa-church fas-image"></i>
-              <h3>Glaube</h3></th>
-          </tr>
-          <tr>
-            <th><i class="fas fa-book-open fas-image"></i>
-              <h3>Wort</h3></th>
-            <th><i class="fas fa-hands fas-image"></i>
-              <h3>Gebet</h3></th>
-            <th><i class="fas fa-music fas-image"></i>
-              <h3>Lobpreis</h3></th>
-          </tr>
-        </table>
+        <div class="values">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-dove"></i>
+              <p>Hoffnung</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-church"></i>
+              <p>Glaube</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-heart"></i>
+              <p>Liebe</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-book-open"></i>
+              <p>Wort</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-hands"></i>
+              <p>Gebet</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-2 value">
+              <i class="fas fa-music"></i>
+              <p>Lobpreis</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -40,57 +48,47 @@
 </script>
 
 <style>
-  #values {
-    background-color: white;
-    font-size: 5px;
-    padding: 25em;
-    padding-left: 40em;
-    padding-right: 40em;
+  .values {
+    margin-top: 60px;
   }
   
-  #values table {
-    border-collapse: collapse;
+  .values p {
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
   }
   
-  #values table td, table th {
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-bottom: 0;
+  .values i {
+    font-size: 25px;
+    margin-bottom: 25px
+  }
+  
+  .values .value {
+    padding: 80px;
+  }
+  
+  .values .value:not(:first-child) {
+    border-left: 1px solid lightgrey;
+  }
+  
+  .values .value:nth-child(4) {
+    border-left: none;
+  }
+  
+  .values .value:nth-child(1),
+  .values .value:nth-child(2),
+  .values .value:nth-child(3) {
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  @media all and (max-width: 991px) {
+    .values * {
+      border: none !important;
+    }
     
-  }
-  
-  #values table tr:first-child th {
-    border-top: 0;
-  }
-  
-  #values table tr:last-child td {
-    border-bottom: 0;
-  }
-  
-  #values table tr td:first-child,
-  #values table tr th:first-child {
-    border-left: 0;
-  }
-  
-  #values table tr td:last-child,
-  #values table tr th:last-child {
-    border-right: 0;
-  }
-  
-  #values th {
-    padding: 12em;
-    font-size: 5px;
-  }
-  
-  #values th:hover {
-    color: #d03439;
-  }
-  
-  #values h3 {
-    margin-bottom: 5em;
-  }
-  
-  .fas-image {
-    font-size: 30px;
-    padding-bottom: 1em;
+    .value {
+      padding: 20px !important;
+    }
   }
 </style>

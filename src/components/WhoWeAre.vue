@@ -1,24 +1,27 @@
 <template>
-  <section id="who">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <section id="who" class="section red-bg text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 who-header">
-          <h4>O biserica pasionata de Dumnezeu</h4>
-          <h2>Cine suntem?</h2>
+        <div class="col-lg-6">
+          <h2 class="text-left">Agape Wien</h2>
         </div>
-        <div class="col-lg-5 who-side-text">
-          <p class="paragraph">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="text-left">Eine Kirche nach dem Herzen Gottes</h3>
+        </div>
+        <div class="col-lg-6">
+          <p class="section-text-heading">
+            Liebe Gott. Liebe deinen Nächsten.
+            <span class="section-text">
+              <br>
+              Das sind die Prinzipien, nach denen wir leben. In Gemeinschaft & Liebe wollen wir
+              spirituell wachsen. Das bedeutet morgen ein besserer Mensch zu sein,
+              als wir es gestern waren.
+            </span>
           </p>
-          <p class="paragraph-faded">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
-          </p>
-          <div class="btn btn-danger btn-rounded">
-            <i class="fas fa-play"></i> MAI MULTE
+          <div class="btn btn-light btn-rounded section-btn-primary">
+            Mehr erfahren<i class="fas fa-arrow-right"></i>
           </div>
         </div>
       </div>
@@ -27,34 +30,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'WhoWeAre'
-  }
 </script>
 
 <style>
-  .who-side-text {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left;
-  }
-  
-  #who {
-    background-color: #2c2c2c;
-    padding: 8em 0;
-  }
-  
-  #who hr,
-  #who p,
-  #who h1,
-  #who h2,
-  #who h3 {
-    color: white;
-  }
-  
-  .who-header {
-    text-align: left;
-  }
-
 </style>
