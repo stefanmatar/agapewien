@@ -2,11 +2,7 @@
   <section id="live" class="section red-bg text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-sm-12 live-side-image">
-          <div class="btn btn-light btn-rounded live-btn">
-            <i class="fas fa-play"></i>
-          </div>
-        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCxBofq4UIEiwXEgp3yerJRQ" frameborder="0" allowfullscreen></iframe>
         <div class="col-lg-6 col-sm-12">
           <h2 class="text-left">Jeden Sonntag morgen & abend</h2>
           <h3 class="text-left">Gottesdienst online sehen</h3>
