@@ -51,42 +51,44 @@
   .values {
     margin-top: 60px;
   }
-  
+
   .values p {
-    font-family: Montserrat-Medium;
+    font-family: Montserrat-Medium,serif;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: #2c3e50;
   }
-  
+
   .values i {
     font-size: 25px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    color: #2c3e50;
   }
-  
+
   .values .value {
     padding: 80px;
   }
-  
+
   .values .value:not(:first-child) {
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid #2c3e50;
   }
-  
+
   .values .value:nth-child(4) {
     border-left: none;
   }
-  
+
   .values .value:nth-child(1),
   .values .value:nth-child(2),
   .values .value:nth-child(3) {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #2c3e50;
   }
-  
+
   @media all and (max-width: 991px) {
     .values * {
       border: none !important;
     }
-    
+
     .value {
       padding: 20px !important;
     }

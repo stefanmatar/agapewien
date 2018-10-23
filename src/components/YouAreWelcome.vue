@@ -29,6 +29,9 @@
 </template>
 
 <script>
+  export default {
+    name: 'YouAreWelcome'
+  }
 </script>
 
 <style>

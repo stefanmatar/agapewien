@@ -1,131 +1,129 @@
 <template>
   <section id="footer" class="grey-bg">
     <div class="container">
-      <div class="row footer-text text-white">
+      <div class="row footer-container text-white">
         <div class="col-md-3 col-sm-12">
-          <img src="/static/images/logos/agape_long_white.png" alt="Agape Wien" class="footer-logo">
+          <img src="/static/images/logos/agape_long_white.png"
+               alt="Agape Wien"
+               class="footer-logo">
         </div>
         <div class="col-md-3 col-sm-4 footer-section">
-          <h2 class="text-white">Channel</h2>
+          <h2 class="red text-left">Channel</h2>
           <div class="text-left">
-            <a href="https://facebook.com/AgapeWien" class="rounded-circle social-button">
-              <i class="fab fa-facebook"></i>
+            <a href="https://facebook.com/AgapeWien"
+               class="rounded-circle social-button text-white">
+              <span class="fab fa-facebook"></span>
             </a>
-            <a href="https://www.instagram.com/agapewien" class="rounded-circle social-button">
-              <i class="fab fa-instagram"></i>
+            <a
+              href="https://medium.com/agapewien"
+              class="rounded-circle social-button text-white">
+              <span class="fab fa-medium"></span>
             </a>
-            <a href="https://www.youtube.com/channel/UCxBofq4UIEiwXEgp3yerJRQ" class="rounded-circle social-button">
-              <i class="fab fa-youtube"></i>
+            <a
+              href="https://www.youtube.com/channel/UCxBofq4UIEiwXEgp3yerJRQ"
+              class="rounded-circle social-button text-white">
+              <span class="fab fa-youtube"></span>
             </a>
-            <a href="https://medium.com/agapewien" class="rounded-circle social-button">
-              <i class="fab fa-medium"></i>
+            <a
+              href="https://www.instagram.com/agapewien"
+              class="rounded-circle social-button text-white">
+              <span class="fab fa-instagram"></span>
             </a>
           </div>
         </div>
         <div class="col-md-3 col-sm-4 footer-section">
-          <h2 class="text-white">KONTAKT</h2>
-          <p class="konakt-text">Jederzeit,</p>
-          <p class="konakt-text">wir sind 24/7 für Sie da.</p>
-          <p class="konakt-text">+43664444444</p>
+          <h2 class="red text-left">KONTAKT</h2>
+          <p class="footer-text text-left">
+            Jederzeit,
+            <br>wir sind 24/7 für Sie da.
+            <br>+43664444444
+          </p>
         </div>
         <div class="col-md-3 col-sm-4 footer-section">
-          <h2 class="text-white">ADRESSE</h2>
-          <p class="adresse-text">Schlechtastraße 5, 1110 Wien</p>
-          <p class="adresse-text">Austria, Europe</p>
+          <h2 class="red text-left">ADRESSE</h2>
+          <p class="footer-text text-left">
+            Schlechtastraße 5,
+            <br>1110 Wien
+            <br>Austria, Europe
+          </p>
         </div>
       </div>
     </div>
-    <nav class="navbar-expand-lg dark-grey-bg">
-      <div class="navbar">
-            <span style="color:#949494">
-              <span style="color: white"> Made with
-              <i class="fas fa-circle" style="color:#ad1818; font-size:8px;"></i>
-              </span>
-            </span>
-        <ul class="navbar-nav nav-footer">
-          <li class="nav-item text-white">
-            <a class="nav-link" href="#header">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#who">Über uns</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#values">Werte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#live">Live</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#pastors">Pastoren</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#program">Programme</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">Kontakt</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg dark-grey-bg">
+      <p class="text-white">
+        Made with
+        <i class="fas fa-circle red"></i>
+      </p>
+      <div class="nav-footer ml-auto">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#header">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#who">Über uns</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#live">Live</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#social-media">Social</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Impressum</a>
+        </li>
+      </ul>
       </div>
     </nav>
   </section>
 </template>
 
 <script>
+  export default {
+    name: 'Footer'
+  }
 </script>
 
 <style>
-  #footer {
-    padding-top: 40px;
+  #footer i{
+    font-size: 6px;
   }
-  #footer h2 {
-    text-align: left;
-  }
-  
-  .footer-text {
-    padding: 40px 10px;
-  }
-  
-  .footer-text a {
-    color: white;
-  }
-  
-  .social-button {
-    float: left;
-    width: 50px;
-    font-size: 30px;
-  }
-  
-  .konakt-text {
-    text-align: left;
-    color: white;
+  #footer p{
     margin: 0;
-    font-size: 15px;
   }
-  
-  .adresse-text {
-    text-align: left;
-    color: white;
-    margin: 0;
-    font-size: 15px;
+  .footer-container{
+    padding: 140px 0 80px 0;
   }
-  
-  .footer-logo {
-    width: 140px;
-    margin-bottom: 2em;
-  }
-  
   .footer-section {
-    margin-bottom: 3em;
+    padding-bottom: 40px;
   }
-  
+  .footer-text {
+    color: white;
+    font-size: 12px;
+  }
+  .footer-logo {
+    width: 120px;
+    padding: 0 0 100px 0;
+    float: left;
+  }
+  .social-button {
+    width: 35px;
+    font-size: 25px;
+    padding-right: 8px;
+  }
   .nav-footer a {
     color: #949494;
+    font-size: 12px;
   }
-  
-  @media screen and (max-width: 1000px) {
-    .nav-footer {
+
+  @media screen and (max-width: 415px) {
+    .footer-container {
+      padding: 100px 0 50px 61px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .nav-footer{
       display: none;
     }
   }
 </style>
-
