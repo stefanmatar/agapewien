@@ -2,12 +2,10 @@
   <section id="live" class="section red-bg text-white">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-sm-12 live-side-image">
-          <div class="btn btn-light btn-rounded live-btn">
-            <i class="fas fa-play"></i>
-          </div>
+        <div class="col-lg-6 col-sm-12 live-image text-left">
+        <iframe src="https://www.youtube.com/embed/live_stream?channel=UCxBofq4UIEiwXEgp3yerJRQ" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12 live-text">
           <h2 class="text-left">Jeden Sonntag morgen & abend</h2>
           <h3 class="text-left">Gottesdienst online sehen</h3>
           <p class="section-text-heading live-times">
@@ -15,7 +13,7 @@
             17:30-19:00
           </p>
           <div class="btn btn-light btn-rounded section-btn-primary">
-            Archiv<i class="fas fa-arrow-right"></i>
+            Archiv bald verfügbar
           </div>
         </div>
       </div>
@@ -24,25 +22,25 @@
 </template>
 
 <script>
+export default {
+  name: 'Live'
+}
 </script>
 
 <style>
-  .live-side-image {
-    margin: 0 40px;
-    width: 100px;
-    height: 250px;
-    position: relative;
-    background: url('/static/images/banner/live.jpg') 0 0 no-repeat / cover;
+  #live iframe{
+    width:480px;
+    max-width: 100%;
+    height:243px;
   }
-  
-  .live-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .live-image{
+    padding:0px;
   }
-  
+  .live-text{
+    padding-top: 33px;
+  }
   .live-times {
     letter-spacing: 2px;
   }
+
 </style>

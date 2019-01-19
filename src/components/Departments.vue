@@ -12,11 +12,10 @@
         </div>
         <div class="col-lg-6">
           <p class="section-text-heading">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua.
+            Wir haben viele Abteilungen, wo Du deine Liebe für Gott und deine Nachbarn zeigen kannst.
             <span class="section-text">
               <br>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              Bald folgen mehrere Infos!
             </span>
           </p>
           <div class="btn btn-light btn-rounded section-btn-primary">
@@ -29,6 +28,9 @@
 </template>
 
 <script>
+  export default {
+    name: 'Departments'
+  }
 </script>
 
 <style>

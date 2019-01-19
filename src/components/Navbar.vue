@@ -15,16 +15,16 @@
             <a class="nav-link" href="#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">ÜBER UNS</a>
+            <a class="nav-link" href="#who">ÜBER UNS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">LIVE</a>
+            <a class="nav-link" href="#live">LIVE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">SOCIAL</a>
+            <a class="nav-link" href="#social-media">SOCIAL</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">IMPRESSUM</a>
+            <a class="nav-link" href="#footer">IMPRESSUM</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
@@ -37,7 +37,7 @@
 
 <script>
   export default {
-    name: 'Toolbar'
+    name: 'Navbar'
   }
 </script>
 
@@ -57,26 +57,24 @@
     margin-top: 10px;
     padding-top: 0;
   }
-  
+
   .navbar {
     padding: 1.5rem 4rem;
   }
-  
+
   .nav-link {
     margin: 0 1em;
   }
-  
+
   .agape-nav {
     padding-top: 50px;
   }
-  
+
   .navbar-logo {
     width: 140px;
   }
-  
+
   .navbar-light .navbar-toggler {
     border: none;
   }
-  
-  
 </style>
