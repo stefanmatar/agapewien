@@ -1,0 +1,415 @@
+/* components */
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('../fonts/Montserrat-Light.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.red {
+    color: #D0343A;
+}
+
+.red-bg {
+    background-color: #D0343A;
+}
+
+.grey {
+    color: #272727;
+}
+
+.grey-bg {
+    background-color: #070f1e;
+}
+
+.dark-grey {
+    color: #242424;
+}
+
+.dark-grey-bg {
+    background-color: #070f1e;
+    color: white;
+}
+
+.dark-grey-background a {
+    background-color: #242424;
+    color: white;
+}
+
+h1 {
+    font-family: Montserrat-SemiBold;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Montserrat-SemiBold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #272727;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-family: Montserrat-SemiBold, serif !important;
+    font-size: 28px !important;
+    letter-spacing: 1.25px !important;
+    text-transform: none !important;
+}
+
+.btn {
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.75em 3em;
+    font-size: 12px;
+}
+
+.header-subtext {
+    font-family: Montserrat-Medium, serif;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 40px 0;
+}
+
+.section {
+    padding: 140px 20px !important;
+}
+
+.section-header {
+    padding-bottom: 1em;
+}
+
+.section-text {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    text-align: left;
+}
+
+.section-text-heading {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.section-btn-primary {
+    background-color: white;
+    color: #272727;
+    text-align: left;
+    margin-top: 40px;
+    float: left;
+}
+
+.fa-arrow-right {
+    margin-left: 1em;
+}
+
+@media (min-width: 768px) {
+    .abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .sections-nav {
+        margin-top: 80px;
+    }
+}
+
+.sections-nav {
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.navbar {
+    padding: 1.5rem 4rem;
+}
+
+.nav-link {
+    margin: 0 1em;
+}
+
+.agape-nav {
+    padding-top: 50px;
+}
+
+.navbar-logo {
+    width: 140px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+#header {
+    background: url('../images/banner/header_new.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 132px);
+}
+
+#header .text-center {
+    color: white;
+    padding-top: 30vh;
+}
+
+.values {
+    margin-top: 60px;
+}
+
+.values p {
+    font-family: Montserrat-Medium, serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #2c3e50;
+}
+
+.values i {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.values .value {
+    padding: 80px;
+}
+
+.values .value:not(:first-child) {
+    border-left: 1px solid #2c3e50;
+}
+
+.values .value:nth-child(4) {
+    border-left: none;
+}
+
+.values .value:nth-child(1),
+.values .value:nth-child(2),
+.values .value:nth-child(3) {
+    border-bottom: 1px solid #2c3e50;
+}
+
+@media all and (max-width: 991px) {
+    .values * {
+        border: none !important;
+    }
+
+    .value {
+        padding: 20px !important;
+    }
+}
+
+#live iframe {
+    width: 480px;
+    max-width: 100%;
+    height: 243px;
+}
+
+.live-image {
+    padding: 0px;
+}
+
+.live-text {
+    padding-top: 33px;
+}
+
+.live-times {
+    letter-spacing: 2px;
+}
+
+.image {
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.pastors-name {
+    margin-top: 1em;
+}
+
+.pastors-heading {
+    margin-bottom: 80px;
+}
+
+.gallery {
+    padding-top: 140px;
+}
+
+.gallery-container {
+    margin: 15px;
+}
+
+.gallery-content {
+    padding: 0;
+}
+
+.gallery-content img {
+    padding: 15px;
+    width: 100%;
+}
+
+#program {
+    padding: 120px 0 160px 0;
+}
+
+.program-header {
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.program-section-text:not(:first-child) {
+    border-left: 1px solid lightgrey;
+}
+
+.program-text {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .program-section-text {
+        border: none !important;
+    }
+
+    .program-header {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .program-text {
+        padding-bottom: 20px;
+    }
+}
+
+.social-media-phone {
+    max-width: 300px;
+    width: 100%;
+}
+
+.social {
+    float: left;
+    font-size: 30px;
+    width: 58px;
+    height: 58px;
+    padding-left: 20px;
+}
+
+.list {
+    margin: 48px 0;
+}
+
+.list-item {
+    float: left;
+}
+
+.list-item-text {
+    padding: 0 0 16px 96px;
+    font-size: 14px;
+}
+
+.list-item-title {
+    font-size: 16px;
+}
+
+.social-media-button {
+    float: left;
+    padding: 42px 0 0 20px;
+}
+
+.map-container {
+    height: 400px;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+#footer i {
+    font-size: 6px;
+}
+
+#footer p {
+    margin: 0;
+}
+
+.footer-container {
+    padding: 140px 0 80px 0;
+}
+
+.footer-section {
+    padding-bottom: 40px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 12px;
+}
+
+.footer-logo {
+    width: 120px;
+    padding: 0 0 100px 0;
+    float: left;
+}
+
+.social-button {
+    width: 35px;
+    font-size: 25px;
+    padding-right: 8px;
+}
+
+.nav-footer a {
+    color: #949494;
+    font-size: 12px;
+}
+
+#footer .footer-text a {
+    color: white;
+}
+
+#footer .footer-text a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a.rounded-circle.social-button.text-white:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 415px) {
+    .footer-container {
+        padding: 100px 0 50px 61px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-footer {
+        display: none;
+    }
+}

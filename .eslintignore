@@ -1,5 +1,3 @@
-/build/
-/config/
-/dist/
-/*.js
-/test/unit/coverage/
+# /node_modules/* and /bower_components/* ignored by default
+
+dist/*
