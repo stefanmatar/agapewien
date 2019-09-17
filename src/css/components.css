@@ -307,6 +307,40 @@ h3 {
     }
 }
 
+.iphone-container {
+    margin-bottom: 600px;
+}
+
+.iphone {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.iphone img {
+    width: 280px;
+    border-radius: 60px;
+    box-shadow: 18px 10px 6px rgba(0, 0, 0, .2);
+    margin-right: 20px;
+}
+
+.iphone-screenshot-area {
+    z-index: 10;
+    position: absolute;
+    height: 430px;
+    width: 100%;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 75px;
+}
+
+.lightwidget-widget {
+    border: 0;
+    width: 240px;
+    margin-right: 20px;
+}
+
 .social-media-phone {
     max-width: 300px;
     width: 100%;
