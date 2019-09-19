@@ -319,31 +319,57 @@ h3 {
 
 .iphone img {
     width: 280px;
-    border-radius: 60px;
+    border-radius: 52px;
     box-shadow: 18px 10px 6px rgba(0, 0, 0, .2);
-    margin-right: 20px;
 }
 
 .iphone-screenshot-area {
+    width: 100%;
     z-index: 10;
     position: absolute;
-    height: 430px;
-    width: 100%;
-    padding: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
     top: 75px;
+    padding: 0;
 }
 
 .lightwidget-widget {
     border: 0;
     width: 240px;
-    margin-right: 20px;
+    height: 390px;
 }
 
-.social-media-phone {
-    max-width: 300px;
-    width: 100%;
+.navbar-smartphone {
+    padding: 4px 0 3px 0;
+    margin-left: 10px;
+}
+
+.navbar-smartphone-button {
+    font-size: 15px;
+    margin-left: 80px;
+}
+
+.navbar-smartphone-button:focus {
+    outline: none;
+}
+
+.navbar-smartphone-collapse {
+    position: absolute;
+    width: 238px;
+    z-index: 9999;
+    background-color: white;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-link-smartphone {
+    color: #272727;
+    font-size: 10px;
+}
+
+.smartphone-logo {
+    width: 50px;
+    margin-top: 3px;
 }
 
 .social {
